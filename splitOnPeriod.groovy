@@ -1,1 +1,1 @@
-node.text.split('\\.').every { node.createChild(it.trim()) }
+node.text.split('\\.').every { node.createChild(it.trim() + '.') }
