@@ -1,1 +1,1 @@
-node.text.split().each { if (it) node.createChild(it) }
+node.text.split().every { node.createChild(it) }

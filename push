@@ -1,0 +1,3 @@
+#! /bin/sh
+hg push ssh://hg@bitbucket.org/lcrees/freeplane-scripts
+hg push git+ssh://git@github.com/kwarterthieves/freeplane-scripts.git
