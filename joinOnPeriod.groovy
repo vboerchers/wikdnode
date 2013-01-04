@@ -1,5 +1,3 @@
-result = []
-for (i in c.selecteds)
-    result.push(i.text)
-ui.informationMessage(result.join('. '))
+def result = []
+c.selecteds.every { i -> result.push(i.plainText) }
 node.createChild(result.join('. '))
