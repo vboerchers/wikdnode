@@ -1,6 +1,6 @@
 def thisStyle = node?.style?.style
 def thisIcons = node?.icons?.icons
-def styleIcons = node?.style?.styleNode?.icons?.icons
+def styleIcons = thisStyle ? node?.style?.styleNode?.icons?.icons : null
 c.selecteds.findAll { it?.id != node?.id }.each {
    if (thisStyle)
       it?.style?.style = thisStyle
