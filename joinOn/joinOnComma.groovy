@@ -1,3 +1,3 @@
-import joinOn.SplitOn
+package joinOn
 
 joinNodeText(c, ', ')

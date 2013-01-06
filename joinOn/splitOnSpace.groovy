@@ -1,3 +1,3 @@
-import joinOn.JoinOn
+package joinOn
 
 splitNodeText(node, ' ')
