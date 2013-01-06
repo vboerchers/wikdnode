@@ -1,5 +1,5 @@
 // @CacheScriptContent(true)
 
-import joinOn.JoinOn
+import com.wikdtamr.util.JoinOn
 
 new JoinOn().joinNodeText(c, node, ' ')

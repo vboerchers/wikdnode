@@ -1,4 +1,4 @@
-package joinOn
+package com.wikdtamr.util
 
 class JoinOn {
 

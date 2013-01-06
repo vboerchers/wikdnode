@@ -1,5 +1,5 @@
 // @CacheScriptContent(true)
 
-import joinOn.SplitOn
+import com.wikdtamr.util.SplitOn
 
 new SplitOn().splitNodeText(node, '\\.')
