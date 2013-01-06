@@ -1,4 +1,4 @@
-
+// @CacheScriptContent(true)
 
 def thisStyle = node?.style?.style
 def thisIcons = node?.icons?.icons
