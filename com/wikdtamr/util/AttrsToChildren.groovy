@@ -2,9 +2,12 @@ package com.wikdtamr.util
 
 class AttrsToChildren {
 
-	def childrenToAttrs(node) {
+	def childrenToAttrs(node, ui) {
 		node.children.eachWithIndex { nc, idx ->
-			node.attributes.add(nc.plainText, nc.details.text)
+			if (nc.details)
+				node.attributes.add(nc.plainText, nc.details)
+			else if (nc.link)
+				node.attributes.add(nc.plainText, nc.link)
 			if (nc.note)
 				node['note'] = nc.note
 			nc.delete()
@@ -22,5 +25,4 @@ class AttrsToChildren {
 		}
 		node.attributes.clear()
 	}
-
 }
