@@ -2,11 +2,10 @@ package joinOn
 
 class SplitOn {
 
-	def joinNodeText(c, joinTxt) {
-	  def result = []
-	  c.selecteds.every { result.push(it.plainText.trim()) }
-	  node.text = result.join(joinTxt)
-	  c.selecteds.tail().each { it.delete() }
-	}
+	def splitNodeText(node, splitTxt) {
+		def splitText = node.plainText.split(splitTxt)
+		splitText.tail().every { node.createChild(it.trim()) }
+		node.text = splitText[0]
+	  }
 
 }

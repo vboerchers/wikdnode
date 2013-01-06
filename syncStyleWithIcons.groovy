@@ -1,4 +1,5 @@
-package joinOn
+
+
 def thisStyle = node?.style?.style
 def thisIcons = node?.icons?.icons
 def styleIcons = thisStyle ? node?.style?.styleNode?.icons?.icons : null

@@ -1,3 +1,0 @@
-package joinOn
-
-joinNodeText(c, ' ')
