@@ -1,6 +1,6 @@
 // @CacheScriptContent(true)
 
-import com.wikdtamr.util.JoinOn
+import com.wikdtamr.util.StringMangle
 
-new JoinOn().joinNodeText(c, node, '. ')
+new StringMangle().joinNodeText(c, node, '. ')
 

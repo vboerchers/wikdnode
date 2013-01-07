@@ -2,4 +2,4 @@
 
 import com.wikdtamr.util.StringMangle
 
-new StringMangle().joinNodeText(c, node, ', ')
+new StringMangle().joinPrompt(c, ui, node)

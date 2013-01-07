@@ -1,5 +1,5 @@
 // @CacheScriptContent(true)
 
-import com.wikdtamr.util.SplitOn
+import com.wikdtamr.util.StringMangle
 
-new SplitOn().splitNodeText(node, ',')
+new StringMangle().splitNodeText(node, ',')
