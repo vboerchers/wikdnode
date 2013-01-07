@@ -29,7 +29,7 @@ class StringMangle {
 
 	def trimNodeText(c, trimTxt) {
 		c.selecteds.every {
-			it.plainText = it.plainText.replaceFirst(trimTxt + '{1}$', '')
+			it.text = it.plainText.replaceFirst(trimTxt + '{1}$', '')
 		}
 	}
 
