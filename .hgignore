@@ -14,7 +14,7 @@ dist/
 *.DS_Store
 _FOSSIL_
 unfinished/
-src/
+spine/
 static/
 media/
 *.orig

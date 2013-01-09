@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path=""/>
+	<classpathentry kind="spine" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_framework"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_mac"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_plugin_bugreport"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_plugin_formula"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_plugin_help"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_plugin_latex"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_plugin_openmaps"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_plugin_script"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_plugin_script_test"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_plugin_svg"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_plugin_uispec4j"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_uitest"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/JOrtho_0.4_freeplane"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane_framework"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane_mac"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane_plugin_bugreport"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane_plugin_formula"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane_plugin_help"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane_plugin_latex"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane_plugin_openmaps"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane_plugin_script"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane_plugin_script_test"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane_plugin_svg"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane_plugin_uispec4j"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/freeplane_uitest"/>
+	<classpathentry combineaccessrules="false" kind="spine" path="/JOrtho_0.4_freeplane"/>
 	<classpathentry kind="output" path="build"/>
 </classpath>

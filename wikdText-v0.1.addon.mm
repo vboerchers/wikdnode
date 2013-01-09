@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Wicked Text" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1357743053936" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="Wicked Text" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1357766978151" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -143,7 +143,7 @@
 </html>
 </richcontent>
 <hook NAME="FlexibleLayout" VALUE="CHILDREN"/>
-<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1357743053964">
+<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1357766978179">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -166,7 +166,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1357743053968">
+<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1357766978182">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -182,7 +182,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1357743053973">
+<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1357766978186">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -208,7 +208,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1357743053978">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1357766978191">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -228,7 +228,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1357743053982">
+<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1357766978194">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -245,7 +245,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1357743053986">
+<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1357766978197">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -266,7 +266,7 @@
 <attribute NAME="addons.${name}" VALUE="Wicked Text"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1357743053990">
+<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1357767029255">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -283,20 +283,19 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="30" VALUE_WIDTH="269"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/joinOnChars.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/joinOnComma.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/joinOnPeriod.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/joinOnSpace.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/splitBeforeChars.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/splitOnChars.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/splitOnComma.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/splitOnPeriod.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/splitOnSpace.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/trimFirstChars.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/trimLastChars.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/StringMangle.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/JoinOnChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/JoinOnComma.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/JoinOnPeriod.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/JoinOnSpace.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/SplitBeforeChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/SplitOnChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/SplitOnComma.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/SplitOnPeriod.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/SplitOnSpace.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/TrimFirstChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/TrimLastChars.groovy"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1357743054007">
+<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1357766978215">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -420,7 +419,7 @@
 </html>
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
-<node TEXT="joinOnChars.groovy" FOLDED="true" ID="ID_326406537" CREATED="1357718596648" MODIFIED="1357720757803">
+<node TEXT="JoinOnChars.groovy" FOLDED="true" ID="ID_326406537" CREATED="1357718596648" MODIFIED="1357760548591">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Join on characters..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdText"/>
@@ -431,9 +430,9 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;import StringMangle&#xa;&#xa;new StringMangle().joinPrompt(c, ui, node, &apos;Enter characters to join nodes on...&apos;)" ID="ID_957384731" CREATED="1357743067346" MODIFIED="1357743067353"/>
+<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;def joinPrompt(c, ui, node, msg) {&#xa;    def mark = ui.showInputDialog(node.delegate, msg, &apos;&apos;)&#xa;    joinText(c, node, (mark ? mark : &apos;&apos;))&#xa;}&#xa;&#xa;def joinText(c, node, mark) {&#xa;    node.text = c.selecteds.collect { it.plainText.trim() }.join(mark)&#xa;    c.selecteds.tail().each { it.delete() }&#xa;}&#xa;&#xa;joinPrompt(c, ui, node, &apos;Enter characters to join nodes on...&apos;)&#xa;" ID="ID_989593365" CREATED="1357767902098" MODIFIED="1357767902107"/>
 </node>
-<node TEXT="joinOnComma.groovy" FOLDED="true" ID="ID_426652560" CREATED="1357718540951" MODIFIED="1357720744639">
+<node TEXT="JoinOnComma.groovy" FOLDED="true" ID="ID_426652560" CREATED="1357718540951" MODIFIED="1357760552214">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Join on comma"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdText"/>
@@ -444,9 +443,9 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;import StringMangle&#xa;&#xa;new StringMangle().joinText(c, node, &apos;, &apos;)&#xa;" ID="ID_513649384" CREATED="1357743067356" MODIFIED="1357743067357"/>
+<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;def joinText(c, node, mark) {&#xa;    node.text = c.selecteds.collect { it.plainText.trim() }.join(mark)&#xa;    c.selecteds.tail().each { it.delete() }&#xa;}&#xa;joinText(c, node, &apos;, &apos;)&#xa;&#xa;" ID="ID_1657651305" CREATED="1357767902115" MODIFIED="1357767902116"/>
 </node>
-<node TEXT="joinOnPeriod.groovy" FOLDED="true" ID="ID_1416066303" CREATED="1357718506311" MODIFIED="1357720735388">
+<node TEXT="JoinOnPeriod.groovy" FOLDED="true" ID="ID_1416066303" CREATED="1357718506311" MODIFIED="1357760540550">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Join on period"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdText"/>
@@ -457,9 +456,9 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;import StringMangle&#xa;&#xa;new StringMangle().joinText(c, node, &apos;. &apos;)&#xa;&#xa;" ID="ID_461391607" CREATED="1357743067358" MODIFIED="1357743067359"/>
+<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;def joinText(c, node, mark) {&#xa;    node.text = c.selecteds.collect { it.plainText.trim() }.join(mark)&#xa;    c.selecteds.tail().each { it.delete() }&#xa;}&#xa;joinText(c, node, &apos; &apos;)&#xa;&#xa;" ID="ID_1364854155" CREATED="1357767902117" MODIFIED="1357767902118"/>
 </node>
-<node TEXT="joinOnSpace.groovy" FOLDED="true" ID="ID_737637147" CREATED="1357718569572" MODIFIED="1357720534237">
+<node TEXT="JoinOnSpace.groovy" FOLDED="true" ID="ID_737637147" CREATED="1357718569572" MODIFIED="1357760532518">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Join with space"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdText"/>
@@ -470,9 +469,9 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;import StringMangle&#xa;&#xa;new StringMangle().joinText(c, node, &apos; &apos;)&#xa;" ID="ID_36272704" CREATED="1357743067360" MODIFIED="1357743067361"/>
+<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;def joinText(c, node, mark) {&#xa;    node.text = c.selecteds.collect { it.plainText.trim() }.join(mark)&#xa;    c.selecteds.tail().each { it.delete() }&#xa;}&#xa;joinText(c, node, &apos; &apos;)&#xa;&#xa;" ID="ID_1278492377" CREATED="1357767902120" MODIFIED="1357767902120"/>
 </node>
-<node TEXT="splitBeforeChars.groovy" FOLDED="true" ID="ID_1144065633" CREATED="1357718569574" MODIFIED="1357720556705">
+<node TEXT="SplitBeforeChars.groovy" FOLDED="true" ID="ID_1144065633" CREATED="1357718569574" MODIFIED="1357760558992">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Split before characters..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdText"/>
@@ -483,9 +482,9 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;import StringMangle&#xa;&#xa;new StringMangle().splitPrompt(ui, node, &apos;(?=&apos;, &apos;Enter characters to split node text before...&apos;)" ID="ID_684771407" CREATED="1357743067362" MODIFIED="1357743067362"/>
+<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;&#xa;def splitPrompt(ui, node, pattern, msg) {&#xa;&#x9;def mark = ui.showInputDialog(node.delegate, msg, &apos;&apos;)&#xa;&#x9;splitText(c, pattern ? (pattern + mark + &apos;)&apos;) : (mark ? mark : &apos;&apos;))&#xa;}&#xa;&#xa;def splitText(c, mark) {&#xa;&#x9;c.selecteds.every { ts -&gt;&#xa;&#x9;&#x9;ts.plainText.split(mark).collect { it.trim() }.eachWithIndex {&#xa;&#x9;&#x9;&#x9;txt, idx -&gt;&#xa;&#x9;&#x9;&#x9;if (idx == 0)&#xa;&#x9;&#x9;&#x9;&#x9;ts.text = txt&#xa;&#x9;&#x9;&#x9;else&#xa;&#x9;&#x9;&#x9;&#x9;ts.createChild(txt)&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;}&#xa;&#xa;&#xa;splitPrompt(ui, node, &apos;(?=&apos;, &apos;Enter characters to split node text before...&apos;)&#xa;&#xa;" ID="ID_1967774202" CREATED="1357767902122" MODIFIED="1357767902123"/>
 </node>
-<node TEXT="splitOnChars.groovy" FOLDED="true" ID="ID_409172412" CREATED="1357718596650" MODIFIED="1357720569966">
+<node TEXT="SplitOnChars.groovy" FOLDED="true" ID="ID_409172412" CREATED="1357718596650" MODIFIED="1357760566589">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Split on characters..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdText"/>
@@ -496,9 +495,9 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;import StringMangle&#xa;&#xa;new StringMangle().splitPrompt(ui, node, &apos;&apos;, &apos;Enter characters to split node text on...&apos;)" ID="ID_1491724930" CREATED="1357743067363" MODIFIED="1357743067364"/>
+<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;&#xa;def splitPrompt(ui, node, pattern, msg) {&#xa;&#x9;def mark = ui.showInputDialog(node.delegate, msg, &apos;&apos;)&#xa;&#x9;splitText(c, pattern ? (pattern + mark + &apos;)&apos;) : (mark ? mark : &apos;&apos;))&#xa;}&#xa;&#xa;def splitText(c, mark) {&#xa;&#x9;c.selecteds.every { ts -&gt;&#xa;&#x9;&#x9;ts.plainText.split(mark).collect { it.trim() }.eachWithIndex {&#xa;&#x9;&#x9;&#x9;txt, idx -&gt;&#xa;&#x9;&#x9;&#x9;if (idx == 0)&#xa;&#x9;&#x9;&#x9;&#x9;ts.text = txt&#xa;&#x9;&#x9;&#x9;else&#xa;&#x9;&#x9;&#x9;&#x9;ts.createChild(txt)&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;}&#xa;&#xa;&#xa;splitPrompt(ui, node, &apos;&apos;, &apos;Enter characters to split node text on...&apos;)&#xa;&#xa;" ID="ID_196407119" CREATED="1357767902124" MODIFIED="1357767902125"/>
 </node>
-<node TEXT="splitOnComma.groovy" FOLDED="true" ID="ID_502099692" CREATED="1357718540955" MODIFIED="1357720581551">
+<node TEXT="SplitOnComma.groovy" FOLDED="true" ID="ID_502099692" CREATED="1357718540955" MODIFIED="1357760571774">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Split on comma"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdText"/>
@@ -509,9 +508,9 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;import StringMangle&#xa;&#xa;new StringMangle().splitText(c, &apos;,&apos;)&#xa;" ID="ID_1558787659" CREATED="1357743067365" MODIFIED="1357743067365"/>
+<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;&#xa;def splitText(c, mark) {&#xa;&#x9;c.selecteds.every { ts -&gt;&#xa;&#x9;&#x9;ts.plainText.split(mark).collect { it.trim() }.eachWithIndex {&#xa;&#x9;&#x9;&#x9;txt, idx -&gt;&#xa;&#x9;&#x9;&#x9;if (idx == 0)&#xa;    &#x9;&#x9;&#x9;ts.text = txt&#xa;&#x9;&#x9;&#x9;else&#xa;&#x9;&#x9;&#x9;    ts.createChild(txt)&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;}&#xa;&#xa;&#xa;splitText(c, &apos;,&apos;)&#xa;&#xa;&#xa;" ID="ID_369233322" CREATED="1357767902127" MODIFIED="1357767902128"/>
 </node>
-<node TEXT="splitOnPeriod.groovy" FOLDED="true" ID="ID_262871351" CREATED="1357718506317" MODIFIED="1357720596285">
+<node TEXT="SplitOnPeriod.groovy" FOLDED="true" ID="ID_262871351" CREATED="1357718506317" MODIFIED="1357760578358">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Split on period"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdText"/>
@@ -522,9 +521,9 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;import StringMangle&#xa;&#xa;new StringMangle().splitText(c, &apos;\\.&apos;)" ID="ID_1211638456" CREATED="1357743067366" MODIFIED="1357743067367"/>
+<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;&#xa;def splitText(c, mark) {&#xa;&#x9;c.selecteds.every { ts -&gt;&#xa;&#x9;&#x9;ts.plainText.split(mark).collect { it.trim() }.eachWithIndex {&#xa;&#x9;&#x9;&#x9;txt, idx -&gt;&#xa;&#x9;&#x9;&#x9;if (idx == 0)&#xa;    &#x9;&#x9;&#x9;ts.text = txt&#xa;&#x9;&#x9;&#x9;else&#xa;&#x9;&#x9;&#x9;    ts.createChild(txt)&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;}&#xa;&#xa;&#xa;splitText(c, &apos;\\.&apos;)&#xa;&#xa;" ID="ID_83452492" CREATED="1357767902129" MODIFIED="1357767902130"/>
 </node>
-<node TEXT="splitOnSpace.groovy" FOLDED="true" ID="ID_1089160930" CREATED="1357718569576" MODIFIED="1357720617933">
+<node TEXT="SplitOnSpace.groovy" FOLDED="true" ID="ID_1089160930" CREATED="1357718569576" MODIFIED="1357760585588">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Split on space"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdText"/>
@@ -535,9 +534,9 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;import StringMangle&#xa;&#xa;new StringMangle().splitText(c, &apos; &apos;)&#xa;" ID="ID_1376615551" CREATED="1357743067368" MODIFIED="1357743067369"/>
+<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;&#xa;def splitText(c, mark) {&#xa;&#x9;c.selecteds.every { ts -&gt;&#xa;&#x9;&#x9;ts.plainText.split(mark).collect { it.trim() }.eachWithIndex {&#xa;&#x9;&#x9;&#x9;txt, idx -&gt;&#xa;&#x9;&#x9;&#x9;if (idx == 0)&#xa;    &#x9;&#x9;&#x9;ts.text = txt&#xa;&#x9;&#x9;&#x9;else&#xa;&#x9;&#x9;&#x9;    ts.createChild(txt)&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;}&#xa;&#xa;&#xa;splitText(c, &apos; &apos;)&#xa;&#xa;" ID="ID_1938958403" CREATED="1357767902131" MODIFIED="1357767902132"/>
 </node>
-<node TEXT="trimFirstChars.groovy" FOLDED="true" ID="ID_906915767" CREATED="1357718540957" MODIFIED="1357720647418">
+<node TEXT="TrimFirstChars.groovy" FOLDED="true" ID="ID_906915767" CREATED="1357718540957" MODIFIED="1357760589493">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Trim start characters..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdText"/>
@@ -548,9 +547,9 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;import StringMangle&#xa;&#xa;new StringMangle().trimPrompt(c, ui, node, &apos;^{1}&apos;, true, &apos;Enter characters to trim from start of node text...&apos;)" ID="ID_382004298" CREATED="1357743067369" MODIFIED="1357743067370"/>
+<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;&#xa;def trimPrompt(c, ui, node, pattern, start, msg) {&#xa;&#x9;def mark = ui.showInputDialog(node.delegate, msg, &apos;&apos;)&#xa;&#x9;mark = start ? pattern + (mark ? mark : &apos;&apos;) : (mark ? mark : &apos;&apos;) + pattern&#xa;&#x9;c.selecteds.every { it.text = it.plainText.replaceFirst(mark, &apos;&apos;) }&#xa;}&#xa;&#xa;&#xa;trimPrompt(c, ui, node, &apos;^{1}&apos;, true, &apos;Enter characters to trim from start of node text...&apos;)&#xa;&#xa;" ID="ID_1094327944" CREATED="1357767902133" MODIFIED="1357767902134"/>
 </node>
-<node TEXT="trimLastChars.groovy" FOLDED="true" ID="ID_153687606" CREATED="1357718506319" MODIFIED="1357720660761">
+<node TEXT="TrimLastChars.groovy" FOLDED="true" ID="ID_153687606" CREATED="1357718506319" MODIFIED="1357760593721">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Trim end characters..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdText"/>
@@ -561,23 +560,10 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;import StringMangle&#xa;&#xa;new StringMangle().trimPrompt(c, ui, node, &apos;{1}$&apos;, false, &apos;Enter characters to trim from end of node text...&apos;)" ID="ID_478883448" CREATED="1357743067371" MODIFIED="1357743067372"/>
-</node>
-<node TEXT="StringMangle.groovy" FOLDED="true" ID="ID_1619940665" CREATED="1357742064891" MODIFIED="1357743021874">
-<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
-<attribute NAME="menuTitleKey" VALUE="flub"/>
-<attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdText"/>
-<attribute NAME="executionMode" VALUE="on_single_node"/>
-<attribute NAME="keyboardShortcut" VALUE=""/>
-<attribute NAME="execute_scripts_without_asking" VALUE="true"/>
-<attribute NAME="execute_scripts_without_file_restriction" VALUE="true"/>
-<attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
-<attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
-<attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="&#xa;&#xa;class StringMangle {&#xa;&#xa;&#x9;def joinPrompt(c, ui, node, msg) {&#xa;&#x9;&#x9;def mark = ui.showInputDialog(node.delegate, msg, &apos;&apos;)&#xa;&#x9;&#x9;joinText(c, node, (mark ? mark : &apos;&apos;))&#xa;&#x9;}&#xa;&#xa;&#x9;def joinText(c, node, mark) {&#xa;&#x9;&#x9;node.text = c.selecteds.collect { it.plainText.trim() }.join(mark)&#xa;&#x9;&#x9;c.selecteds.tail().each { it.delete() }&#xa;&#x9;}&#xa;&#xa;&#x9;def splitPrompt(ui, node, pattern, msg) {&#xa;&#x9;&#x9;def mark = ui.showInputDialog(node.delegate, msg, &apos;&apos;)&#xa;&#x9;&#x9;splitText(c, pattern ? (pattern + mark + &apos;)&apos;) : (mark ? mark : &apos;&apos;))&#xa;&#x9;}&#xa;&#xa;&#x9;def splitText(c, mark) {&#xa;&#x9;&#x9;c.selecteds.every { ts -&gt;&#xa;&#x9;&#x9;&#x9;ts.plainText.split(mark).collect { it.trim() }.eachWithIndex {&#xa;&#x9;&#x9;&#x9;&#x9;txt, idx -&gt;&#xa;&#x9;&#x9;&#x9;&#x9;if (idx == 0)&#xa;&#x9;    &#x9;&#x9;&#x9;ts.text = txt&#xa;&#x9;&#x9;&#x9;&#x9;else&#xa;  &#x9;&#x9;&#x9;&#x9;    ts.createChild(txt)&#xa;&#x9;&#x9;&#x9;}&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;&#xa;&#x9;def trimPrompt(c, ui, node, pattern, start, msg) {&#xa;&#x9;&#x9;def mark = ui.showInputDialog(node.delegate, msg, &apos;&apos;)&#xa;&#x9;&#x9;mark = start ? pattern + (mark ? mark : &apos;&apos;) : (mark ? mark : &apos;&apos;) + pattern&#xa;&#x9;&#x9;c.selecteds.every { it.text = it.plainText.replaceFirst(mark, &apos;&apos;) }&#xa;&#x9;}&#xa;&#xa;}&#xa;" ID="ID_1381309120" CREATED="1357743067373" MODIFIED="1357743067373"/>
+<node TEXT="// @CacheScriptContent(true)&#xa;// @ExecutionModes({ON_SINGLE_NODE})&#xa;&#xa;&#xa;def trimPrompt(c, ui, node, pattern, start, msg) {&#xa;&#x9;def mark = ui.showInputDialog(node.delegate, msg, &apos;&apos;)&#xa;&#x9;mark = start ? pattern + (mark ? mark : &apos;&apos;) : (mark ? mark : &apos;&apos;) + pattern&#xa;&#x9;c.selecteds.every { it.text = it.plainText.replaceFirst(mark, &apos;&apos;) }&#xa;}&#xa;&#xa;&#xa;trimPrompt(c, ui, node, &apos;{1}$&apos;, false, &apos;Enter characters to trim from end of node text...&apos;)&#xa;&#xa;" ID="ID_1678255570" CREATED="1357767902135" MODIFIED="1357767902136"/>
 </node>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1357743054031">
+<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1357766978241">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -624,7 +610,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1357743054037">
+<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1357766978247">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 

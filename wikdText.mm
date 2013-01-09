@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Wicked Text" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1357743053936" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="Wicked Text" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1357766978151" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -141,9 +141,10 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
 <hook NAME="FlexibleLayout" VALUE="CHILDREN"/>
-<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1357743053964">
+<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1357766978179">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -160,13 +161,14 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="Miscellaneous text tools for Freeplane" ID="ID_419235551" CREATED="1357715987721" MODIFIED="1357716010850">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1357743053968">
+<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1357766978182">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -180,9 +182,10 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1357743053973">
+<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1357766978186">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -202,13 +205,14 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#xa;GNU General Public License for more details." ID="ID_241792435" CREATED="1357715826895" MODIFIED="1357719017976">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1357743053978">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1357766978191">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -225,10 +229,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1357743053982">
+<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1357766978194">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -242,10 +247,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1357743053986">
+<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1357766978197">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -259,6 +265,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="en" ID="ID_1245393964" CREATED="1357715826986" MODIFIED="1357741731901">
@@ -266,7 +273,7 @@
 <attribute NAME="addons.${name}" VALUE="Wicked Text"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1357743053990">
+<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1357767029255">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -280,23 +287,23 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="30" VALUE_WIDTH="269"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/joinOnChars.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/joinOnComma.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/joinOnPeriod.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/joinOnSpace.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/splitBeforeChars.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/splitOnChars.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/splitOnComma.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/splitOnPeriod.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/splitOnSpace.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/trimFirstChars.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/trimLastChars.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/scripts/StringMangle.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/JoinOnChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/JoinOnComma.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/JoinOnPeriod.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/JoinOnSpace.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/SplitBeforeChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/SplitOnChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/SplitOnComma.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/SplitOnPeriod.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/SplitOnSpace.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/TrimFirstChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/TrimLastChars.groovy"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1357743054007">
+<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1357766978215">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -418,6 +425,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="JoinOnChars.groovy" ID="ID_326406537" CREATED="1357718596648" MODIFIED="1357760548591">
@@ -553,7 +561,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1357743054031">
+<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1357766978241">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -597,10 +605,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1357743054037">
+<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1357766978247">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -634,6 +643,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
