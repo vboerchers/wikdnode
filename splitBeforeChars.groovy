@@ -3,4 +3,4 @@
 
 import com.wikdtamr.util.StringMangle
 
-new StringMangle().joinText(c, node, ', ')
+new StringMangle().splitPrompt(ui, node, '(?=', 'Enter characters to split node text before...')

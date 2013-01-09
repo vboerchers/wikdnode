@@ -1,4 +1,5 @@
 // @CacheScriptContent(true)
+// @ExecutionModes({ON_SINGLE_NODE})
 
 def thisStyle = node?.style?.style
 def thisIcons = node?.icons?.icons

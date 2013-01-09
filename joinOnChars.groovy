@@ -3,4 +3,4 @@
 
 import com.wikdtamr.util.StringMangle
 
-new StringMangle().joinText(c, node, ', ')
+new StringMangle().joinPrompt(c, ui, node, 'Enter characters to join nodes on...')
