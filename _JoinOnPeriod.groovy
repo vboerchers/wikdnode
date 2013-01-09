@@ -1,0 +1,1 @@
+joinText(c, node, '. ')

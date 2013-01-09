@@ -1,0 +1,1 @@
+joinPrompt(c, ui, node, 'Enter characters to join nodes on...')

@@ -1,0 +1,2 @@
+splitText(c, ',')
+
