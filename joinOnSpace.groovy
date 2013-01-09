@@ -1,6 +1,6 @@
 // @CacheScriptContent(true)
 // @ExecutionModes({ON_SINGLE_NODE})
 
-import com.wikdtamr.util.StringMangle
+import wikdtamr.StringMangle
 
 new StringMangle().joinText(c, node, ' ')

@@ -1,5 +1,5 @@
 // @CacheScriptContent(true)
 
-import com.wikdtamr.util.AttrsToChildren
+import wikdtamr.AttrsToChildren
 
 new AttrsToChildren().attrsToChildren(node)

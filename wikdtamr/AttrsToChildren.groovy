@@ -1,4 +1,4 @@
-package com.wikdtamr.util
+package wikdtamr
 
 class AttrsToChildren {
 
