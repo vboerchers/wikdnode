@@ -1,3 +1,4 @@
 // @CacheScriptContent(true)
 // @ExecutionModes({ON_SINGLE_NODE})
-c.selecteds.every {	it.text = it.plainText.toUpperCase() }
+node.parent.text = node.text
+node.delete()

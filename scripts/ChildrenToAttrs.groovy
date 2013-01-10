@@ -1,6 +1,5 @@
 // @CacheScriptContent(true)
 // @ExecutionModes({ON_SINGLE_NODE})
-
 c.selecteds.each {
 	it.children.eachWithIndex { nc, idx ->
 		if (nc.details)

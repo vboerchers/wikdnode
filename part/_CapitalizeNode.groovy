@@ -1,1 +1,1 @@
-c.selecteds.every { it.text = it.plainText.toLower().capitalize() }
+c.selecteds.every {	it.text = it.plainText.toLowerCase().capitalize() }

@@ -1,4 +1,4 @@
-def splitText(mark) {
+def splitText(String mark) {
 	c.selecteds.every { ts ->
 		ts.plainText.split(mark).collect { it.trim() }.eachWithIndex {
 			txt, idx ->

@@ -1,12 +1,11 @@
 // @CacheScriptContent(true)
 // @ExecutionModes({ON_SINGLE_NODE})
-
-def joinText(c, node, mark) {
+def joinText(String mark) {
     node.text = c.selecteds.collect { it.plainText.trim() }.join(mark)
     c.selecteds.tail().each { it.delete() }
 }
-def joinPrompt(c, ui, node, msg) {
+def joinPrompt(String msg) {
     def mark = ui.showInputDialog(node.delegate, msg, '')
-    joinText(c, node, (mark ? mark : ''))
+    joinText(mark ? mark : '')
 }
-joinPrompt(c, ui, node, 'Enter characters to join nodes on...')
+joinPrompt('Enter characters to join nodes on...')

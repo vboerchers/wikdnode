@@ -1,7 +1,6 @@
 // @CacheScriptContent(true)
 // @ExecutionModes({ON_SINGLE_NODE})
-
-def splitText(c, mark) {
+def splitText(String mark) {
 	c.selecteds.every { ts ->
 		ts.plainText.split(mark).collect { it.trim() }.eachWithIndex {
 			txt, idx ->
@@ -12,10 +11,8 @@ def splitText(c, mark) {
 	}
 }
 
-def splitPrompt(ui, node, pattern, msg) {
+def splitPrompt(String pattern, String msg) {
 	def mark = ui.showInputDialog(node.delegate, msg, '')
-	splitText(c, pattern ? (pattern + mark + ')') : (mark ? mark : ''))
+	splitText(pattern ? (pattern + mark + ')') : (mark ? mark : ''))
 }
-
-splitPrompt(ui, node, '', 'Enter characters to split node text on...')
-
+splitPrompt('', 'Enter characters to split node text on...')

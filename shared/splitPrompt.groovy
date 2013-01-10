@@ -1,4 +1,4 @@
-def splitPrompt(pattern, msg) {
+def splitPrompt(String pattern, String msg) {
 	def mark = ui.showInputDialog(node.delegate, msg, '')
-	splitText(c, pattern ? (pattern + mark + ')') : (mark ? mark : ''))
+	splitText(pattern ? (pattern + mark + ')') : (mark ? mark : ''))
 }

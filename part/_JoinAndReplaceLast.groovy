@@ -1,6 +1,7 @@
+def lastNode = c.selecteds.last()
 def mark = ui.showInputDialog(
-	node.delegate, 'Enter characters to join nodes and replace first node on...', '')
-c.selecteds.last().text = c.selecteds.head().collect {
+	node.delegate, "Enter characters to join nodes and replace '${lastNode.text}'...", '')
+lastNode.text = c.selecteds.reverse().tail().collect {
 	it.plainText.trim()
-}.join(mark ? mark : '')
-c.selecteds.head().each { it.delete() }
+}.reverse().join(mark ? mark : '')
+c.selecteds.reverse().tail().each { it.delete() }

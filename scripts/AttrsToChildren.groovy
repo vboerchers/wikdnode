@@ -1,6 +1,5 @@
 // @CacheScriptContent(true)
 // @ExecutionModes({ON_SINGLE_NODE})
-
 c.selecteds.each {
 	it.attributes.names.eachWithIndex { an, idx ->
 		def child = it.createChild(idx)

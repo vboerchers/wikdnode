@@ -1,7 +1,6 @@
 // @CacheScriptContent(true)
 // @ExecutionModes({ON_SINGLE_NODE})
-
-def splitText(c, mark) {
+def splitText(String mark) {
 	c.selecteds.every { ts ->
 		ts.plainText.split(mark).collect { it.trim() }.eachWithIndex {
 			txt, idx ->
@@ -12,7 +11,4 @@ def splitText(c, mark) {
 	}
 }
 
-
-splitText(c, ',')
-
-
+splitText(',')
