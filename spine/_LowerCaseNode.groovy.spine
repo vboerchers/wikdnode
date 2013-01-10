@@ -1,2 +1,2 @@
 shared/header.groovy
-part/_UpperCaseNode.groovy
+part/_LowerCaseNode.groovy

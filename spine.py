@@ -11,6 +11,7 @@ if __name__ == '__main__':
                 ), 'w') as nf:
                     for lf in f:
                         with open(lf.strip(), 'r') as cf:
+                            print(lf)
                             for ln in cf:
                                 nf.write(ln)
                         nf.write('\n')

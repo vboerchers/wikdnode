@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Wicked Node" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1357781508517" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="Wicked Node" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1357795124653" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -105,7 +105,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="10"/>
 <attribute_layout NAME_WIDTH="103" VALUE_WIDTH="103"/>
 <attribute NAME="name" VALUE="wikdNode"/>
-<attribute NAME="version" VALUE="v0.1.3" OBJECT="org.freeplane.features.format.FormattedObject|v0.1.3|number:decimal:#0.####"/>
+<attribute NAME="version" VALUE="v0.1.6" OBJECT="org.freeplane.features.format.FormattedObject|v0.1.6|number:decimal:#0.####"/>
 <attribute NAME="author" VALUE="L. C. Rees"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="1.2.15"/>
 <attribute NAME="freeplaneVersionTo" VALUE="1.2.20"/>
@@ -141,10 +141,9 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook NAME="FlexibleLayout" VALUE="CHILDREN"/>
-<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1357781285557">
+<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1357794769080">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -161,14 +160,13 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="Miscellaneous text tools for Freeplane" ID="ID_419235551" CREATED="1357715987721" MODIFIED="1357716010850">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1357781285560">
+<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1357794769084">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -182,10 +180,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1357781285563">
+<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1357794769087">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -205,14 +202,13 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#xa;GNU General Public License for more details." ID="ID_241792435" CREATED="1357715826895" MODIFIED="1357719017976">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1357781285568">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1357794769092">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -229,11 +225,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1357781285570">
+<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1357794769095">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -247,11 +242,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1357781285574">
+<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1357794769098">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -265,7 +259,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="en" ID="ID_1245393964" CREATED="1357715826986" MODIFIED="1357770977979">
@@ -273,7 +266,7 @@
 <attribute NAME="addons.${name}" VALUE="Wicked Node"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1357781287332">
+<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1357794769101">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -287,7 +280,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="30" VALUE_WIDTH="269"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
@@ -305,8 +297,11 @@
 <attribute NAME="delete" VALUE="${installationbase}/scripts/JoinAndReplace.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/scripts/JoinAndReplaceLast.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/scripts/JoinAndReplaceFirst.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/CapitalizeNode.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/UpperCaseNode.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/LowerCaseNode.groovy"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1357781285591">
+<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1357794769117">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -428,9 +423,44 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+<node TEXT="CapitalizeNode.groovy" ID="ID_1766457930" CREATED="1357794199593" MODIFIED="1357794434692">
+<attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
+<attribute NAME="menuTitleKey" VALUE="Capitalize node text"/>
+<attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdConvert"/>
+<attribute NAME="executionMode" VALUE="on_single_node"/>
+<attribute NAME="keyboardShortcut" VALUE="control meta C"/>
+<attribute NAME="execute_scripts_without_asking" VALUE="true"/>
+<attribute NAME="execute_scripts_without_file_restriction" VALUE="true"/>
+<attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
+</node>
+<node TEXT="UpperCaseNode.groovy" ID="ID_575754475" CREATED="1357794217131" MODIFIED="1357794447363">
+<attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
+<attribute NAME="menuTitleKey" VALUE="Convert node text to upper case"/>
+<attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdConvert"/>
+<attribute NAME="executionMode" VALUE="on_single_node"/>
+<attribute NAME="keyboardShortcut" VALUE="control meta U"/>
+<attribute NAME="execute_scripts_without_asking" VALUE="true"/>
+<attribute NAME="execute_scripts_without_file_restriction" VALUE="true"/>
+<attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
+</node>
+<node TEXT="LowerCaseNode.groovy" ID="ID_1207751289" CREATED="1357794244507" MODIFIED="1357794451436">
+<attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
+<attribute NAME="menuTitleKey" VALUE="Convert node text to lower case"/>
+<attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdConvert"/>
+<attribute NAME="executionMode" VALUE="on_single_node"/>
+<attribute NAME="keyboardShortcut" VALUE="control meta L"/>
+<attribute NAME="execute_scripts_without_asking" VALUE="true"/>
+<attribute NAME="execute_scripts_without_file_restriction" VALUE="true"/>
+<attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
+</node>
 <node TEXT="JoinOnPeriod.groovy" ID="ID_1416066303" CREATED="1357718506311" MODIFIED="1357780410079">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Join nodes on period"/>
@@ -588,7 +618,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1357781285687">
+<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1357794769144">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -632,11 +662,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1357781285695">
+<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1357794769151">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -670,7 +699,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>

@@ -1,1 +1,1 @@
-joinText(c, node, '. ')
+joinText('. ')

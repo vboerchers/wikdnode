@@ -1,1 +1,1 @@
-joinPrompt(c, ui, node, 'Enter characters to join nodes on...')
+joinPrompt('Enter characters to join nodes on...')

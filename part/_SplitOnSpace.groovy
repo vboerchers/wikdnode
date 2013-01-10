@@ -1,2 +1,1 @@
-
-splitText(c, ' ')
+splitText(' ')

@@ -1,4 +1,4 @@
-def joinPrompt(c, ui, node, msg) {
+def joinPrompt(msg) {
     def mark = ui.showInputDialog(node.delegate, msg, '')
-    joinText(c, node, (mark ? mark : ''))
+    joinText(mark ? mark : '')
 }
