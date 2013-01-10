@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Wicked Node" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1357778485795" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="Wicked Node" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1357779765955" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -105,7 +105,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="10"/>
 <attribute_layout NAME_WIDTH="103" VALUE_WIDTH="103"/>
 <attribute NAME="name" VALUE="wikdNode"/>
-<attribute NAME="version" VALUE="v0.1" OBJECT="org.freeplane.features.format.FormattedObject|v0.1|number:decimal:#0.####"/>
+<attribute NAME="version" VALUE="v0.1.2" OBJECT="org.freeplane.features.format.FormattedObject|v0.1.2|number:decimal:#0.####"/>
 <attribute NAME="author" VALUE="L. C. Rees"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="1.2.15"/>
 <attribute NAME="freeplaneVersionTo" VALUE="1.2.20"/>
@@ -144,7 +144,7 @@
 
 </richcontent>
 <hook NAME="FlexibleLayout" VALUE="CHILDREN"/>
-<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1357778485836">
+<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1357779765983">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -168,7 +168,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1357778485839">
+<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1357779765987">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -185,7 +185,7 @@
 
 </richcontent>
 </node>
-<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1357778485843">
+<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1357779765991">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -212,7 +212,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1357778485848">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1357779765996">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -233,7 +233,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1357778485851">
+<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1357779766000">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -251,7 +251,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1357778485854">
+<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1357779766005">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -273,7 +273,7 @@
 <attribute NAME="addons.${name}" VALUE="Wicked Node"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1357778485857">
+<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1357779766008">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -302,8 +302,9 @@
 <attribute NAME="delete" VALUE="${installationbase}/scripts/SplitOnSpace.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/scripts/TrimFirstChars.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/scripts/TrimLastChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/JoinAndReplace.groovy"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1357778485871">
+<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1357779766025">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -476,6 +477,18 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
+<node TEXT="JoinAndReplace.groovy" ID="ID_1690084201" CREATED="1357779519978" MODIFIED="1357779623044">
+<attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
+<attribute NAME="menuTitleKey" VALUE="Join and replace node"/>
+<attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
+<attribute NAME="executionMode" VALUE="on_single_node"/>
+<attribute NAME="keyboardShortcut" VALUE="alt meta J"/>
+<attribute NAME="execute_scripts_without_asking" VALUE="true"/>
+<attribute NAME="execute_scripts_without_file_restriction" VALUE="true"/>
+<attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
+</node>
 <node TEXT="SplitBeforeChars.groovy" ID="ID_1144065633" CREATED="1357718569574" MODIFIED="1357774722073">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="Split before characters..."/>
@@ -561,7 +574,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1357778485894">
+<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1357779766050">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -609,7 +622,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1357778485901">
+<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1357779766057">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
