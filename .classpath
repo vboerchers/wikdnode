@@ -16,5 +16,5 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/freeplane_uitest"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Groovy"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/JOrtho_0.4_freeplane"/>
-	<classpathentry kind="output" path="build"/>
+	<classpathentry kind="output" path="scripts"/>
 </classpath>

@@ -1,0 +1,1 @@
+c.selecteds.every {	it.text = it.plainText.toUpperCase() }
