@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Wicked Node" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1357779765955" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="Wicked Node" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1357781508517" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -105,7 +105,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="10"/>
 <attribute_layout NAME_WIDTH="103" VALUE_WIDTH="103"/>
 <attribute NAME="name" VALUE="wikdNode"/>
-<attribute NAME="version" VALUE="v0.1.2" OBJECT="org.freeplane.features.format.FormattedObject|v0.1.2|number:decimal:#0.####"/>
+<attribute NAME="version" VALUE="v0.1.3" OBJECT="org.freeplane.features.format.FormattedObject|v0.1.3|number:decimal:#0.####"/>
 <attribute NAME="author" VALUE="L. C. Rees"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="1.2.15"/>
 <attribute NAME="freeplaneVersionTo" VALUE="1.2.20"/>
@@ -144,7 +144,7 @@
 
 </richcontent>
 <hook NAME="FlexibleLayout" VALUE="CHILDREN"/>
-<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1357779765983">
+<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1357781285557">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -168,7 +168,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1357779765987">
+<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1357781285560">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -185,7 +185,7 @@
 
 </richcontent>
 </node>
-<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1357779765991">
+<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1357781285563">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -212,7 +212,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1357779765996">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1357781285568">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -222,10 +222,10 @@
   </head>
   <body>
     <p>
-      <font color="#000000" face="SansSerif, sans-serif">The child node contains the add-on configuration as an extension to mindmapmodemenu.xml (in Tools-&gt;Preferences-&gt;Add-ons). </font>
+      <font face="SansSerif, sans-serif" color="#000000">The child node contains the add-on configuration as an extension to mindmapmodemenu.xml (in Tools-&gt;Preferences-&gt;Add-ons). </font>
     </p>
     <p>
-      <font color="#000000" face="SansSerif, sans-serif">Every property in the configuration should receive a default value in <i>default.properties</i>&#160;node.</font>
+      <font face="SansSerif, sans-serif" color="#000000">Every property in the configuration should receive a default value in <i>default.properties</i>&#160;node.</font>
     </p>
   </body>
 </html>
@@ -233,7 +233,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1357779766000">
+<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1357781285570">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -251,7 +251,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1357779766005">
+<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1357781285574">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -273,7 +273,7 @@
 <attribute NAME="addons.${name}" VALUE="Wicked Node"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1357779766008">
+<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1357781287332">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -303,8 +303,10 @@
 <attribute NAME="delete" VALUE="${installationbase}/scripts/TrimFirstChars.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/scripts/TrimLastChars.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/scripts/JoinAndReplace.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/JoinAndReplaceLast.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/JoinAndReplaceFirst.groovy"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1357779766025">
+<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1357781285591">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -429,9 +431,9 @@
 
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
-<node TEXT="JoinOnPeriod.groovy" ID="ID_1416066303" CREATED="1357718506311" MODIFIED="1357774685083">
+<node TEXT="JoinOnPeriod.groovy" ID="ID_1416066303" CREATED="1357718506311" MODIFIED="1357780410079">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Join on period"/>
+<attribute NAME="menuTitleKey" VALUE="Join nodes on period"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control meta PERIOD"/>
@@ -441,9 +443,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="JoinOnComma.groovy" ID="ID_426652560" CREATED="1357718540951" MODIFIED="1357774689341">
+<node TEXT="JoinOnComma.groovy" ID="ID_426652560" CREATED="1357718540951" MODIFIED="1357780280053">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Join on comma"/>
+<attribute NAME="menuTitleKey" VALUE="Join nodes with comma"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control meta COMMA"/>
@@ -453,9 +455,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="JoinOnSpace.groovy" ID="ID_737637147" CREATED="1357718569572" MODIFIED="1357774703510">
+<node TEXT="JoinOnSpace.groovy" ID="ID_737637147" CREATED="1357718569572" MODIFIED="1357780285416">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Join with space"/>
+<attribute NAME="menuTitleKey" VALUE="Join nodes with space"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control meta SPACE"/>
@@ -465,9 +467,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="JoinOnChars.groovy" ID="ID_326406537" CREATED="1357718596648" MODIFIED="1357774713282">
+<node TEXT="JoinOnChars.groovy" ID="ID_326406537" CREATED="1357718596648" MODIFIED="1357780294386">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Join on characters..."/>
+<attribute NAME="menuTitleKey" VALUE="Join nodes with characters..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control meta J"/>
@@ -477,21 +479,33 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="JoinAndReplace.groovy" ID="ID_1690084201" CREATED="1357779519978" MODIFIED="1357779623044">
+<node TEXT="JoinAndReplaceLast.groovy" ID="ID_1663059313" CREATED="1357781240177" MODIFIED="1357781471136">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Join and replace node"/>
+<attribute NAME="menuTitleKey" VALUE="Join nodes with characters and replace last node..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
-<attribute NAME="keyboardShortcut" VALUE="alt meta J"/>
+<attribute NAME="keyboardShortcut" VALUE="alt meta R"/>
 <attribute NAME="execute_scripts_without_asking" VALUE="true"/>
 <attribute NAME="execute_scripts_without_file_restriction" VALUE="true"/>
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="SplitBeforeChars.groovy" ID="ID_1144065633" CREATED="1357718569574" MODIFIED="1357774722073">
+<node TEXT="JoinAndReplaceFirst.groovy" ID="ID_1220873466" CREATED="1357781260866" MODIFIED="1357781482887">
+<attribute_layout NAME_WIDTH="206" VALUE_WIDTH="236"/>
+<attribute NAME="menuTitleKey" VALUE="Join nodes with characters and replace first node..."/>
+<attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
+<attribute NAME="executionMode" VALUE="on_single_node"/>
+<attribute NAME="keyboardShortcut" VALUE="control meta R"/>
+<attribute NAME="execute_scripts_without_asking" VALUE="true"/>
+<attribute NAME="execute_scripts_without_file_restriction" VALUE="true"/>
+<attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
+<attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
+</node>
+<node TEXT="SplitBeforeChars.groovy" ID="ID_1144065633" CREATED="1357718569574" MODIFIED="1357780317653">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Split before characters..."/>
+<attribute NAME="menuTitleKey" VALUE="Split nodes before characters..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control meta S"/>
@@ -501,9 +515,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="SplitOnPeriod.groovy" ID="ID_262871351" CREATED="1357718506317" MODIFIED="1357774734023">
+<node TEXT="SplitOnPeriod.groovy" ID="ID_262871351" CREATED="1357718506317" MODIFIED="1357780325292">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Split on period"/>
+<attribute NAME="menuTitleKey" VALUE="Split nodes on period"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control alt PERIOD"/>
@@ -513,9 +527,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="SplitOnComma.groovy" ID="ID_502099692" CREATED="1357718540955" MODIFIED="1357774743499">
+<node TEXT="SplitOnComma.groovy" ID="ID_502099692" CREATED="1357718540955" MODIFIED="1357780329084">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Split on comma"/>
+<attribute NAME="menuTitleKey" VALUE="Split nodes on comma"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control alt COMMA"/>
@@ -525,9 +539,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="SplitOnSpace.groovy" ID="ID_1089160930" CREATED="1357718569576" MODIFIED="1357774750504">
+<node TEXT="SplitOnSpace.groovy" ID="ID_1089160930" CREATED="1357718569576" MODIFIED="1357780342915">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Split on space"/>
+<attribute NAME="menuTitleKey" VALUE="Split nodes on space"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control alt SPACE"/>
@@ -537,9 +551,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="SplitOnChars.groovy" ID="ID_409172412" CREATED="1357718596650" MODIFIED="1357774764832">
+<node TEXT="SplitOnChars.groovy" ID="ID_409172412" CREATED="1357718596650" MODIFIED="1357780347583">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Split on characters..."/>
+<attribute NAME="menuTitleKey" VALUE="Split nodes on characters..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control alt S"/>
@@ -549,9 +563,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="TrimLastChars.groovy" ID="ID_153687606" CREATED="1357718506319" MODIFIED="1357774780274">
+<node TEXT="TrimLastChars.groovy" ID="ID_153687606" CREATED="1357718506319" MODIFIED="1357780362166">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Trim end characters..."/>
+<attribute NAME="menuTitleKey" VALUE="Trim end characters from node..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdTrim"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control meta T"/>
@@ -561,9 +575,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="TrimFirstChars.groovy" ID="ID_906915767" CREATED="1357718540957" MODIFIED="1357774788129">
+<node TEXT="TrimFirstChars.groovy" ID="ID_906915767" CREATED="1357718540957" MODIFIED="1357780368489">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Trim start characters..."/>
+<attribute NAME="menuTitleKey" VALUE="Trim start characters from node..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdTrim"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control alt T"/>
@@ -574,7 +588,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1357779766050">
+<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1357781285687">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -622,7 +636,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1357779766057">
+<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1357781285695">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
