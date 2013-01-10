@@ -5,7 +5,7 @@ import os
 if __name__ == '__main__':
     for fn in os.listdir('spine'):
         if fn.endswith('spine'):
-            with open(fn, 'r') as f:
+            with open(os.path.join('spine', fn), 'r') as f:
                 with open(
                     os.path.join('scripts', fn.rstrip('.spine').lstrip('_')
                 ), 'w') as nf:
