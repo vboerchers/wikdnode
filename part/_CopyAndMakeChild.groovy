@@ -1,1 +1,1 @@
-node.createChild(node.text)
+c.select(node.createChild(node.text))
