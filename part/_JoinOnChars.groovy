@@ -1,1 +1,1 @@
-joinPrompt('Enter characters to join nodes on...')
+joinPrompt('Enter characters to join nodes with...')

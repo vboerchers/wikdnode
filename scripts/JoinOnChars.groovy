@@ -8,4 +8,4 @@ def joinPrompt(String msg) {
     def mark = ui.showInputDialog(node.delegate, msg, '')
     joinText(mark ? mark : '')
 }
-joinPrompt('Enter characters to join nodes on...')
+joinPrompt('Enter characters to join nodes with...')
