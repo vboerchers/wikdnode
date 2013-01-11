@@ -1,3 +1,5 @@
 // @CacheScriptContent(true)
 // @ExecutionModes({ON_SINGLE_NODE})
-node.createChild(node.text)
+def child = null
+c.selecteds.every { child = it.createChild(it.text) }
+c.select(child)

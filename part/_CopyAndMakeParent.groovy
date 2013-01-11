@@ -1,4 +1,7 @@
-def parent = node.parent
-parent.text = node.text
-node.delete()
+def parent = null
+c.selecteds.every {
+  parent = it.parent
+  parent.text = it.text
+  it.delete()
+}
 c.select(parent)
