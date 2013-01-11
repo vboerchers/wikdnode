@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Wicked Node" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1357864468191" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/freeplane-scripts/overview">
+<node TEXT="wikdNode" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1357866870124" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/wikdnode/">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -144,7 +144,7 @@
 
 </richcontent>
 <hook NAME="FlexibleLayout" VALUE="CHILDREN"/>
-<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1357864468199">
+<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1357866870150">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -168,7 +168,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1357864468202">
+<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1357866870153">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -186,7 +186,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1357864468205">
+<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1357866870168">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -213,7 +213,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1357864468209">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1357866870172">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -234,7 +234,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1357864468212">
+<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1357866870175">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -252,7 +252,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1357864468215">
+<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1357866870178">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -269,12 +269,12 @@
 
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
-<node TEXT="en" ID="ID_1245393964" CREATED="1357715826986" MODIFIED="1357770977979">
+<node TEXT="en" ID="ID_1245393964" CREATED="1357715826986" MODIFIED="1357865756376">
 <attribute_layout NAME_WIDTH="76" VALUE_WIDTH="76"/>
-<attribute NAME="addons.${name}" VALUE="Wicked Node"/>
+<attribute NAME="addons.${name}" VALUE="wikdNode"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1357864468217">
+<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1357866870182">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -315,7 +315,7 @@
 <attribute NAME="delete" VALUE="${installationbase}/resources/images/wikdNode-icon.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/resources/images/wikdNode-screenshot-1.png"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1357864468229">
+<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1357866870194">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -657,7 +657,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1357864468243">
+<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1357866870220">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -705,7 +705,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1357864468249">
+<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1357866870226">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -742,13 +742,13 @@
 
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
-<node TEXT="wikdNode.png" ID="ID_473909841" CREATED="1357854883609" MODIFIED="1357855233291">
+<node TEXT="${name}.png" ID="ID_473909841" CREATED="1357854883609" MODIFIED="1357866785018">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="wikdNode-icon.png" ID="ID_1117040601" CREATED="1357853471253" MODIFIED="1357855224395">
+<node TEXT="${name}-icon.png" ID="ID_1117040601" CREATED="1357853471253" MODIFIED="1357866788268">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="wikdNode-screenshot-1.png" ID="ID_1706510600" CREATED="1357855573438" MODIFIED="1357855582228">
+<node TEXT="${name}-screenshot-1.png" ID="ID_1706510600" CREATED="1357855573438" MODIFIED="1357866791195">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
