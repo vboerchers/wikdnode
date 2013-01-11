@@ -164,7 +164,79 @@
 
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
-<node TEXT="Node mastery for Freeplane" ID="ID_419235551" CREATED="1357715987721" MODIFIED="1357864337292">
+<node ID="ID_419235551" CREATED="1357715987721" MODIFIED="1357869985595"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Node wrangling features for Freeplane:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        capitalize&#160;node core text
+      </li>
+      <li>
+        upper case&#160;node core text
+      </li>
+      <li>
+        lower case&#160;node core text
+      </li>
+      <li>
+        trim first chosen characters from node core text
+      </li>
+      <li>
+        trim last chosen character from node core text
+      </li>
+      <li>
+        split&#160;node core text&#160;into multiple nodes on periods
+      </li>
+      <li>
+        split&#160;node core text into multiple nodes on commas
+      </li>
+      <li>
+        split&#160;node core text into multiple nodes on spaces
+      </li>
+      <li>
+        split&#160;node core text into multiple nodes on one or more chosen characters...
+      </li>
+      <li>
+        split&#160;node core text into&#160;multiple nodes before&#160;one or more chosen characters...
+      </li>
+      <li>
+        join&#160;node core text of multiple nodes with spaces
+      </li>
+      <li>
+        join&#160;node core text of multiple nodes with commas
+      </li>
+      <li>
+        join&#160;node core text&#160;of multiple nodes with periods
+      </li>
+      <li>
+        join&#160;node core text of multiple nodes with&#160;one or more chosen characters
+      </li>
+      <li>
+        join&#160;node core text of multiple nodes with&#160;one or more chosen characters and replace&#160;the first&#160;selected node
+      </li>
+      <li>
+        join&#160;node core text of multiple nodes with&#160;one or more chosen characters and replace&#160;the last&#160;selected node
+      </li>
+      <li>
+        copy node core text as a new child of the node
+      </li>
+      <li>
+        replace parent node core text with the core node text of one of its children
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
@@ -500,9 +572,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="JoinOnPeriod.groovy" ID="ID_1416066303" CREATED="1357718506311" MODIFIED="1357844988404">
+<node TEXT="JoinOnPeriod.groovy" ID="ID_1416066303" CREATED="1357718506311" MODIFIED="1357868762247">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Join with period"/>
+<attribute NAME="menuTitleKey" VALUE="Join with periods"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control meta PERIOD"/>
@@ -512,9 +584,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="JoinOnComma.groovy" ID="ID_426652560" CREATED="1357718540951" MODIFIED="1357844984143">
+<node TEXT="JoinOnComma.groovy" ID="ID_426652560" CREATED="1357718540951" MODIFIED="1357868759314">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Join with comma"/>
+<attribute NAME="menuTitleKey" VALUE="Join with commas"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control meta COMMA"/>
@@ -524,9 +596,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="JoinOnSpace.groovy" ID="ID_737637147" CREATED="1357718569572" MODIFIED="1357844976361">
+<node TEXT="JoinOnSpace.groovy" ID="ID_737637147" CREATED="1357718569572" MODIFIED="1357868752141">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Join with space"/>
+<attribute NAME="menuTitleKey" VALUE="Join with spaces"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control meta SPACE"/>
@@ -584,9 +656,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="SplitOnPeriod.groovy" ID="ID_262871351" CREATED="1357718506317" MODIFIED="1357844881769">
+<node TEXT="SplitOnPeriod.groovy" ID="ID_262871351" CREATED="1357718506317" MODIFIED="1357868777840">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Split on period"/>
+<attribute NAME="menuTitleKey" VALUE="Split on periods"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control alt PERIOD"/>
@@ -596,9 +668,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="SplitOnComma.groovy" ID="ID_502099692" CREATED="1357718540955" MODIFIED="1357844875921">
+<node TEXT="SplitOnComma.groovy" ID="ID_502099692" CREATED="1357718540955" MODIFIED="1357868780012">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Split on comma"/>
+<attribute NAME="menuTitleKey" VALUE="Split on commas"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control alt COMMA"/>
@@ -608,9 +680,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="SplitOnSpace.groovy" ID="ID_1089160930" CREATED="1357718569576" MODIFIED="1357844865208">
+<node TEXT="SplitOnSpace.groovy" ID="ID_1089160930" CREATED="1357718569576" MODIFIED="1357868790148">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Split on space"/>
+<attribute NAME="menuTitleKey" VALUE="Split on spaces"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control alt SPACE"/>
@@ -632,9 +704,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="TrimLastChars.groovy" ID="ID_153687606" CREATED="1357718506319" MODIFIED="1357844857348">
+<node TEXT="TrimLastChars.groovy" ID="ID_153687606" CREATED="1357718506319" MODIFIED="1357869677252">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Trim end characters..."/>
+<attribute NAME="menuTitleKey" VALUE="Trim last characters..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdTrim"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control meta T"/>
@@ -644,9 +716,9 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="TrimFirstChars.groovy" ID="ID_906915767" CREATED="1357718540957" MODIFIED="1357844850939">
+<node TEXT="TrimFirstChars.groovy" ID="ID_906915767" CREATED="1357718540957" MODIFIED="1357869672868">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
-<attribute NAME="menuTitleKey" VALUE="Trim start characters..."/>
+<attribute NAME="menuTitleKey" VALUE="Trim first characters..."/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdTrim"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE="control alt T"/>
