@@ -1,3 +1,5 @@
+// @CacheScriptContent(true)
+// @ExecutionModes({ON_SINGLE_NODE})
 import org.apache.commons.lang.StringUtils as SU
 
 def splitText(String mark) {
@@ -10,3 +12,5 @@ def splitText(String mark) {
 		}
 	}
 }
+
+splitText(' ')
