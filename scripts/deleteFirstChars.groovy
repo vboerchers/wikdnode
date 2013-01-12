@@ -1,7 +1,9 @@
 // @CacheScriptContent(true)
 // @ExecutionModes({ON_SINGLE_NODE})
-import org.apache.commons.lang.StringUtils as SU
+def trimPrompt(String pattern, Boolean start, String msg) {
+	def mark = ui.showInputDialog(node.delegate, msg, '')
+	mark = start ? pattern + (mark ? mark : '') : (mark ? mark : '') + pattern
+	c.selecteds.every { it.text = it.plainText.replaceFirst(mark, '') }
+}
+trimPrompt('^{1}', true, 'Enter characters to delete from text start...')
 
-def mark = ui.showInputDialog(node.delegate, 'Enter characters to delete from text start:', '')
-
-c.selecteds.every { it.text = SU.substringAfter(it.plainText, mark) }

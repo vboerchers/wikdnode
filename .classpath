@@ -18,6 +18,5 @@
 	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/JOrtho_0.4_freeplane"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/Users/lrees/Versioned/Soul/App/wikdNode/zips/scripts/guava-14.0-rc1.jar"/>
 	<classpathentry kind="output" path="scripts"/>
 </classpath>

@@ -1,2 +1,3 @@
 shared/header.groovy
+shared/delete.groovy
 part/_deleteLastChars.groovy
