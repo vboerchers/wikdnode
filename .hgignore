@@ -1,5 +1,8 @@
 syntax:glob
 *.pyc
+*.class
+*.jar
+*.xdsl
 *.egg-info
 *~
 .DS_Store
