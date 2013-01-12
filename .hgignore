@@ -4,6 +4,7 @@ syntax:glob
 *.jar
 *.xdsl
 *.egg-info
+*.bak
 *~
 .DS_Store
 .figleaf
