@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="wikdNode" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1358050869293" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/wikdnode/">
+<node TEXT="wikdNode" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1358051615607" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/wikdnode/">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -144,7 +144,7 @@
 
 </richcontent>
 <hook NAME="FlexibleLayout" VALUE="CHILDREN"/>
-<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1358050869302">
+<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1358051615637">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -236,7 +236,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1358050869303">
+<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1358051615640">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -253,8 +253,20 @@
 
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+<node TEXT="0.3.0" ID="ID_1041388750" CREATED="1358051551048" MODIFIED="1358051563586">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+<node TEXT="initial release" ID="ID_885933822" CREATED="1358051564024" MODIFIED="1358051567394">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1358050869305">
+</node>
+<node TEXT="0.4.0" ID="ID_1259408886" CREATED="1358051570985" MODIFIED="1358051576035">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+<node TEXT="internationalization support (Volker B&#xf6;rchers)" ID="ID_283696874" CREATED="1358051576703" MODIFIED="1358051595025">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+</node>
+</node>
+</node>
+<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1358051615644">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -281,7 +293,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1358050869307">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1358051615649">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -302,7 +314,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1358050869308">
+<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1358051615652">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -320,7 +332,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1358050869309">
+<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1358051615655">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -388,7 +400,7 @@
 <attribute NAME="wikd.deleteFirstChars" VALUE="Entferne erste Zeichen..."/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1358050869311">
+<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1358051615658">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -429,7 +441,7 @@
 <attribute NAME="delete" VALUE="${installationbase}/scripts/deleteLastChars.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/scripts/deleteFirstChars.groovy"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1358050869317">
+<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1358051615673">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -759,7 +771,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1358050869324">
+<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1358051615701">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -807,7 +819,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="images" FOLDED="true" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1358050869327">
+<node TEXT="images" FOLDED="true" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1358051615709">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
