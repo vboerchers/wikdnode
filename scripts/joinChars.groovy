@@ -7,4 +7,6 @@ def joinText(String mark) {
     c.selecteds.tail().each { it.delete() }
 }
 def mark = ui.showInputDialog(node.delegate, 'Enter characters to join nodes with...', '')
-joinText(mark ? mark : '')
+if (mark) {
+	joinText(mark ? mark : '')
+}
