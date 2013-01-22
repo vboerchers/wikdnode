@@ -162,7 +162,7 @@
 </html>
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
-<node ID="ID_419235551" CREATED="1357715987721" MODIFIED="1358817254132"><richcontent TYPE="NODE">
+<node ID="ID_419235551" CREATED="1357715987721" MODIFIED="1358826414218"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -251,6 +251,7 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
@@ -282,6 +283,23 @@
 <node TEXT="internationalization support (Volker B&#xf6;rchers)" ID="ID_283696874" CREATED="1358051576703" MODIFIED="1358051595025">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
+</node>
+<node TEXT="0.6.0" ID="ID_445995360" CREATED="1358826419027" MODIFIED="1358826432186">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+<node TEXT="" ID="ID_56811122" CREATED="1358826432757" MODIFIED="1358826432757">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+</node>
+<node TEXT="convert parent node attributes to node children" ID="ID_283386454" CREATED="1358826467093" MODIFIED="1358826485696">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+</node>
+<node TEXT="convert node children to parent node attributes" ID="ID_347065973" CREATED="1358826467096" MODIFIED="1358826485700">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+</node>
+<node TEXT="delete links on multiple nodes" ID="ID_469717144" CREATED="1358826467103" MODIFIED="1358826485702"/>
+<node TEXT="delete first characters matching a regular expression from node core text" ID="ID_1170096921" CREATED="1358826467109" MODIFIED="1358826485704"/>
+<node TEXT="delete last characters matching a regular expression from node core text" ID="ID_54936900" CREATED="1358826467115" MODIFIED="1358826485705"/>
+<node TEXT="split node core text into multiple nodes on characters that match a regular expression" ID="ID_1563200956" CREATED="1358826467121" MODIFIED="1358826485706"/>
+<node TEXT="split node core text into multiple nodes before characters that match a regular expression" ID="ID_106379126" CREATED="1358826467127" MODIFIED="1358826485708"/>
 </node>
 </node>
 <node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1358814813716">
