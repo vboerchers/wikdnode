@@ -2,12 +2,7 @@
 // @ExecutionModes({ON_SINGLE_NODE})
 import java.util.regex.Pattern
 import org.apache.commons.lang.StringUtils as SU
-
-def trimPrompt(String pattern, Boolean start, String msg) {
-	def mark = ui.showInputDialog(node.delegate, msg, '')
-	if (mark != null) {
-	   mark = Pattern.quote(start ? pattern + mark : mark + pattern)
-	   c.selecteds.every { it.text = SU.trim( it.plainText.replaceFirst(mark, '')) }
-	}
+def mark = ui.showInputDialog(node.delegate, 'Enter characters to delete from text end:', '')
+if (mark != null) {
+   c.selecteds.every { it.text = SU.trim( it.plainText.replaceFirst(Pattern.quote(mark) + '{1}$', '')) }
 }
-trimPrompt('{1}$', false, 'Enter characters to delete from text end:')
