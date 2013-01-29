@@ -3,14 +3,16 @@
 import java.util.regex.Pattern
 import org.apache.commons.lang.StringUtils as SU
 
+
 def splitText(mark) {
 	def firstSplit = Boolean.parseBoolean(config.getProperty('wikd_first_split'))
-	c.selecteds.every { ts ->
-		ts.plainText.split(mark).collect { SU.trim(it) }.eachWithIndex {
+	c.selecteds.toList().every { ts ->
+		ts.plainText.split(mark).toList().collect { SU.trim(it) }.eachWithIndex {
 			txt, idx ->
 			if (idx == 0) {
-				if (firstSplit == false)
+				if (firstSplit == false) {
 				    ts.createChild(txt)
+				}
       			ts.text = txt
 			} else {
 			    ts.createChild(txt)
@@ -18,7 +20,9 @@ def splitText(mark) {
 		}
 	}
 }
-def mark = ui.showInputDialog(node.delegate, 'Enter regular expression to split node text before...', '')
+def mark = ui.showInputDialog(
+	node.delegate, 'Enter regular expression to split node text before...', ''
+)
 
 if (mark) {
 	splitText('(?=' + (mark ? mark : '') + ')')

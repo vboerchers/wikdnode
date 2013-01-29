@@ -1,11 +1,15 @@
+def child, attrs
+
 c.selecteds.each {
-	it.attributes.names.eachWithIndex { an, idx ->
-		def child = it.createChild(idx)
-		if (an == 'note')
-			child.note = it[an]
-		else
+	attrs = it.attributes
+	attrs.names.eachWithIndex { an, idx ->
+		child = it.createChild(idx)
+		if (an == 'note') {
+			child.note = attrs.get(an)
+		} else {
 			child.object = an
-		child.details = it[an]
+		}
+		child.details = attrs.get(idx)
 	}
 	it.attributes.clear()
 }

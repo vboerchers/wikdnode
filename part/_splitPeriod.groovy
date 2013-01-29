@@ -1,1 +1,1 @@
-splitText('.')
+splitText('\\.')

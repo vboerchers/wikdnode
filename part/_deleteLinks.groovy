@@ -1,3 +1,1 @@
-c.selecteds.each {
-	it.link.text = null
-}
+c.selecteds.each { it.link.text = null }

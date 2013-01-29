@@ -1,9 +1,14 @@
 // @CacheScriptContent(true)
 // @ExecutionModes({ON_SINGLE_NODE})
-def parent = null
-c.selecteds.every {
+def parent
+def wipe = []
+
+c.selecteds.toList().each {
   parent = it.parent
   parent.text = it.text
-  it.delete()
+  wipe.add(it)
 }
+
+wipe.toList().each { it.delete() }
+
 c.select(parent)
