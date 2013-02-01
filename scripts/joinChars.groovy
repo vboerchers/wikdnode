@@ -2,12 +2,11 @@
 // @ExecutionModes({ON_SINGLE_NODE})
 import org.apache.commons.lang.StringUtils as SU
 
-def joinPlainText(String mark) {
-	def selecteds = c.selecteds.toList()
+def joinText(String mark) {
     node.text = SU.join(
-		selecteds.collect { SU.trim(it.plainText) }.toList(), mark
+		c.selecteds.collect { SU.trim(it.plainText) }.toArray(), mark
 	)
-    selecteds.each { it.delete() }
+    c.selecteds.tail().each { it.delete() }
 }
 
 def mark = ui.showInputDialog(
