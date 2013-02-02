@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="wikdNode" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1359741188156" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/wikdnode/">
+<node TEXT="wikdNode" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1359773652630" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/wikdnode/">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -105,7 +105,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="6"/>
 <attribute_layout NAME_WIDTH="103" VALUE_WIDTH="103"/>
 <attribute NAME="name" VALUE="wikdNode"/>
-<attribute NAME="version" VALUE="v0.6.5" OBJECT="org.freeplane.features.format.FormattedObject|v0.6.5|number:decimal:#0.####"/>
+<attribute NAME="version" VALUE="v0.6.7" OBJECT="org.freeplane.features.format.FormattedObject|v0.6.7|number:decimal:#0.####"/>
 <attribute NAME="author" VALUE="L. C. Rees"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="1.2.15"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
@@ -143,7 +143,7 @@
 </html>
 </richcontent>
 <hook NAME="FlexibleLayout" VALUE="CHILDREN"/>
-<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1359702112182">
+<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1359766958052">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -255,7 +255,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1359702112184">
+<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1359766958053">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -318,7 +318,7 @@
 </node>
 </node>
 </node>
-<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1359702112186">
+<node TEXT="license" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1359766958055">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -344,7 +344,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1359702112189">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1359766958058">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -367,7 +367,7 @@
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1359702112190">
+<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1359766958059">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -385,7 +385,7 @@
 <attribute_layout NAME_WIDTH="72" VALUE_WIDTH="72"/>
 <attribute NAME="wikd_first_split" VALUE="false"/>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1359702112192">
+<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1359766958061">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -404,12 +404,12 @@
 <node TEXT="en" ID="ID_1245393964" CREATED="1357715826986" MODIFIED="1359702348835">
 <attribute_layout NAME_WIDTH="130" VALUE_WIDTH="246"/>
 <attribute NAME="addons.${name}" VALUE="wikdNode"/>
-<attribute NAME="wikdConvert" VALUE="Convert"/>
+<attribute NAME="jWikdConvert" VALUE="Convert"/>
 <attribute NAME="wikdDelete" VALUE="Delete"/>
 <attribute NAME="wikdJoin" VALUE="Join"/>
-<attribute NAME="wikdSplit" VALUE="Split"/>
-<attribute NAME="wikd.capitalize" VALUE="Capitalize"/>
-<attribute NAME="wikd.capitalizeAll" VALUE="Capitalize all"/>
+<attribute NAME="jWikdSplit" VALUE="Split"/>
+<attribute NAME="jWikd.capitalize" VALUE="Capitalize"/>
+<attribute NAME="jWikd.capitalizeAll" VALUE="Capitalize all"/>
 <attribute NAME="wikd.upperCase" VALUE="To upper case"/>
 <attribute NAME="wikd.lowerCase" VALUE="To lower case"/>
 <attribute NAME="wikd.makeChild" VALUE="Copy to child"/>
@@ -440,15 +440,15 @@
 <node TEXT="de" ID="ID_726128733" CREATED="1357715826986" MODIFIED="1359702440779">
 <attribute_layout NAME_WIDTH="130" VALUE_WIDTH="224"/>
 <attribute NAME="addons.${name}" VALUE="wikdNode"/>
-<attribute NAME="wikdConvert" VALUE="Konvertieren"/>
-<attribute NAME="wikdDelete" VALUE="Entfernen"/>
-<attribute NAME="wikdJoin" VALUE="Verbinden"/>
-<attribute NAME="wikdSplit" VALUE="Teilen"/>
-<attribute NAME="wikd.capitalize" VALUE="1. Anfangsbuchst. gro&#xdf;"/>
-<attribute NAME="wikd.capitalizeAll" VALUE="Alle Anfangsbuchst. gro&#xdf;"/>
-<attribute NAME="wikd.upperCase" VALUE="Gro&#xdf;buchstaben"/>
-<attribute NAME="wikd.lowerCase" VALUE="Kleinbuchstaben"/>
-<attribute NAME="wikd.makeChild" VALUE="Als Kindknoten kopieren"/>
+<attribute NAME="jWikdConvert" VALUE="Konvertieren"/>
+<attribute NAME="jWikdConvert" VALUE="Entfernen"/>
+<attribute NAME="jWikdConvert" VALUE="Verbinden"/>
+<attribute NAME="jWikdConvert" VALUE="Teilen"/>
+<attribute NAME="jWikdConvert" VALUE="1. Anfangsbuchst. gro&#xdf;"/>
+<attribute NAME="jWikdConvert" VALUE="Alle Anfangsbuchst. gro&#xdf;"/>
+<attribute NAME="jWikdConvert" VALUE="Gro&#xdf;buchstaben"/>
+<attribute NAME="jWikdConvert" VALUE="Kleinbuchstaben"/>
+<attribute NAME="jWikdConvert" VALUE="Als Kindknoten kopieren"/>
 <attribute NAME="wikd.replaceParent" VALUE="Ersetze Elternknoten"/>
 <attribute NAME="wikd.childrenToAttrs" VALUE="Kinder um die Attribute"/>
 <attribute NAME="wikd.attrsToChildren" VALUE="Attribute f&#xfc;r Kinder"/>
@@ -474,7 +474,7 @@
 <attribute NAME="OptionPanel.wikd_first_split" VALUE="Halten erste Spaltung als Elternknoten"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1359702113669">
+<node TEXT="deinstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1359766959514">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -522,8 +522,21 @@
 <attribute NAME="delete" VALUE="${installationbase}/scripts/deleteLinks.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/scripts/splitAfterChars.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/scripts/splitAfterRegex.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jJoinPeriod.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jJoinComma.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jJoinSpace.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jJoinChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jSplitBeforeChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jSplitBeforeRegex.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jSplitAfterChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jSplitAfterRegex.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jSplitChars.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jSplitRegex.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jSplitPeriod.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jSplitComma.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/scripts/jSplitSpace.groovy"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1359702112203">
+<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1359766958070">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -743,7 +756,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="joinPeriod.groovy" ID="ID_1416066303" CREATED="1357718506311" MODIFIED="1358028490194">
+<node TEXT="jJoinPeriod.groovy" ID="ID_1416066303" CREATED="1357718506311" MODIFIED="1359765771734">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.joinPeriod"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
@@ -755,7 +768,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="joinComma.groovy" ID="ID_426652560" CREATED="1357718540951" MODIFIED="1358028490198">
+<node TEXT="jJoinComma.groovy" ID="ID_426652560" CREATED="1357718540951" MODIFIED="1359765768109">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.joinComma"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
@@ -767,7 +780,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="joinSpace.groovy" ID="ID_737637147" CREATED="1357718569572" MODIFIED="1358028490201">
+<node TEXT="jJoinSpace.groovy" ID="ID_737637147" CREATED="1357718569572" MODIFIED="1359765764839">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.joinSpace"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
@@ -779,7 +792,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="joinChars.groovy" ID="ID_326406537" CREATED="1357718596648" MODIFIED="1358028490204">
+<node TEXT="jJoinChars.groovy" ID="ID_326406537" CREATED="1357718596648" MODIFIED="1359765761384">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.joinChars"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdJoin"/>
@@ -791,7 +804,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="splitBeforeChars.groovy" ID="ID_1144065633" CREATED="1357718569574" MODIFIED="1358028490208">
+<node TEXT="jSplitBeforeChars.groovy" ID="ID_1144065633" CREATED="1357718569574" MODIFIED="1359765704590">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.splitBeforeChars"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
@@ -803,7 +816,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="splitBeforeRegex.groovy" ID="ID_1071316054" CREATED="1358814771204" MODIFIED="1358822827098">
+<node TEXT="jSplitBeforeRegex.groovy" ID="ID_1071316054" CREATED="1358814771204" MODIFIED="1359765700572">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.splitBeforeRegex"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
@@ -815,7 +828,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="splitAfterChars.groovy" ID="ID_1831941505" CREATED="1359702100939" MODIFIED="1359702518723">
+<node TEXT="jSplitAfterChars.groovy" ID="ID_1831941505" CREATED="1359702100939" MODIFIED="1359765712831">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.splitAfterChars"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
@@ -827,7 +840,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="splitAfterRegex.groovy" ID="ID_102192877" CREATED="1359702100940" MODIFIED="1359702505313">
+<node TEXT="jSplitAfterRegex.groovy" ID="ID_102192877" CREATED="1359702100940" MODIFIED="1359765725708">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.splitAfterRegex"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
@@ -839,7 +852,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="splitChars.groovy" ID="ID_409172412" CREATED="1357718596650" MODIFIED="1358028490219">
+<node TEXT="jSplitChars.groovy" ID="ID_409172412" CREATED="1357718596650" MODIFIED="1359765729558">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.splitChars"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
@@ -851,7 +864,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="splitRegex.groovy" ID="ID_1758323236" CREATED="1358814771207" MODIFIED="1358822834421">
+<node TEXT="jSplitRegex.groovy" ID="ID_1758323236" CREATED="1358814771207" MODIFIED="1359765732991">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.splitRegex"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
@@ -863,7 +876,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="splitPeriod.groovy" ID="ID_262871351" CREATED="1357718506317" MODIFIED="1358028490211">
+<node TEXT="jSplitPeriod.groovy" ID="ID_262871351" CREATED="1357718506317" MODIFIED="1359765738104">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.splitPeriod"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
@@ -875,7 +888,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="splitComma.groovy" ID="ID_502099692" CREATED="1357718540955" MODIFIED="1358028490214">
+<node TEXT="jSplitComma.groovy" ID="ID_502099692" CREATED="1357718540955" MODIFIED="1359765744016">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.splitComma"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
@@ -887,7 +900,7 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="splitSpace.groovy" ID="ID_1089160930" CREATED="1357718569576" MODIFIED="1358028490217">
+<node TEXT="jSplitSpace.groovy" ID="ID_1089160930" CREATED="1357718569576" MODIFIED="1359765746992">
 <attribute_layout NAME_WIDTH="206" VALUE_WIDTH="206"/>
 <attribute NAME="menuTitleKey" VALUE="wikd.splitSpace"/>
 <attribute NAME="menuLocation" VALUE="/menu_bar/edit/wikdSplit"/>
@@ -960,7 +973,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1359702112300">
+<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1359766958128">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -1006,8 +1019,14 @@
 </html>
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+<node TEXT="scripts" ID="ID_219833333" CREATED="1357885389563" MODIFIED="1357885391598">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
+<node TEXT="wikd.jar" ID="ID_1338104924" CREATED="1357890163166" MODIFIED="1359765876870">
+<attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="images" FOLDED="true" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1359702112304">
+</node>
+</node>
+<node TEXT="images" FOLDED="true" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1359766958132">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
