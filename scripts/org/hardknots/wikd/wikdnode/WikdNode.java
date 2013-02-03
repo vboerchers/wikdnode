@@ -5,63 +5,76 @@ import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
 import org.freeplane.core.resources.ResourceController;
-import org.freeplane.core.undo.IUndoHandler;
+import org.freeplane.core.ui.components.UITools;
 import org.freeplane.core.util.HtmlUtils;
-import org.freeplane.features.map.MapModel;
 import org.freeplane.features.map.NodeModel;
 import org.freeplane.features.map.mindmapmode.MMapController;
 import org.freeplane.features.mode.Controller;
+import org.freeplane.features.text.mindmapmode.MTextController;
 
 public class WikdNode {
 
 	public static void joinPlainText(String mark) {
 		if (mark != null) {
 			List<String> collect = new LinkedList<String>();
-			Controller c = Controller.getCurrentController();
-			MMapController m = (MMapController) Controller.getCurrentModeController().getMapController();
-			final MapModel map = c.getMap();
-			final IUndoHandler undoHandler = (IUndoHandler) map.getExtension(IUndoHandler.class);
-			try {
-				undoHandler.startTransaction();
-				for (NodeModel n: c.getSelection().getOrderedSelection()) {
-					collect.add(StringUtils.trim(HtmlUtils.htmlToPlain(n.getText())));
-					m.deleteNode(n);
+			final Controller c = Controller.getCurrentController();
+			final List<NodeModel> selected = c.getSelection()
+					.getOrderedSelection();
+			final NodeModel selectedNode = c.getSelection().getSelected();
+			for (final NodeModel n : selected) {
+				collect.add(StringUtils.trim(HtmlUtils.htmlToPlain(n.getText())));
+			}
+			c.getSelection().selectAsTheOnlyOneSelected(selectedNode);
+			// modification
+			MTextController.getController().setNodeText(selectedNode,
+					StringUtils.join(collect.toArray(), mark));
+			final int size = selected.size();
+			for (int i = 0; i < size; i++) {
+				final NodeModel n = selected.get(i);
+				if (n != selectedNode) {
+					if (n != null) {
+						final MMapController m = (MMapController) Controller
+								.getCurrentModeController().getMapController();
+						// modification
+						m.deleteNode(n);
+					}
 				}
-				c.getSelection().getSelected().setText(StringUtils.join(collect.toArray(), mark));
-				undoHandler.commit();
-			} catch (Exception e) {
-				undoHandler.rollback();
 			}
 		}
 	}
 
 	public static void splitPlainText(String mark) {
 		if (mark != null) {
-			Boolean firstSplit = ResourceController.getResourceController().getBooleanProperty("wikd_first_split");
-			Controller c = Controller.getCurrentController();
-			MMapController m = (MMapController) Controller.getCurrentModeController().getMapController();
-			final MapModel map = c.getMap();
-			final IUndoHandler undoHandler = (IUndoHandler) map.getExtension(IUndoHandler.class);
-			undoHandler.startTransaction();
-			try {
-				for (NodeModel n: c.getSelection().getOrderedSelection()) {
-					if (n != null) {
-						int idx = 0;
-						for (String txt : HtmlUtils.htmlToPlain(n.getText()).split(mark)) {
-							if (idx == 0) {
-								if (firstSplit == false)
-									m.insertNode(new NodeModel(txt, map), n);
-								n.setText(txt);
-							} else {
-								m.insertNode(new NodeModel(txt, map), n);
-							}
-							idx++;
+			final Boolean firstSplit = ResourceController
+					.getResourceController().getBooleanProperty(
+							"wikd_first_split");
+			final Controller c = Controller.getCurrentController();
+			final MTextController mtext = MTextController.getController();
+			final MMapController m = (MMapController) Controller
+					.getCurrentModeController().getMapController();
+			final List<NodeModel> selected = c.getSelection()
+					.getOrderedSelection();
+			for (NodeModel n : selected) {
+				int idx = 0;
+				final String[] textSplit = HtmlUtils.htmlToPlain(n.getText())
+						.split(mark);
+				for (String txt : textSplit) {
+					if (idx == 0) {
+						if (firstSplit == false) {
+							// modification
+							final NodeModel node = new NodeModel(txt,
+									n.getMap());
+							m.insertNode(node, n);
 						}
+						// modification
+						mtext.setNodeText(n, txt);
+						idx++;
+					} else {
+						// modification
+						final NodeModel node = new NodeModel(txt, n.getMap());
+						m.insertNode(node, n);
 					}
 				}
-				undoHandler.commit();
-			} catch (Exception e) {
-				undoHandler.rollback();
 			}
 		}
 	}

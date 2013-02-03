@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="wikdNode" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1359873140100" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/wikdnode/">
+<node TEXT="wikdNode" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1359881580012" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/wikdnode/">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -105,7 +105,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="6"/>
 <attribute_layout NAME_WIDTH="103" VALUE_WIDTH="103"/>
 <attribute NAME="name" VALUE="wikdNode"/>
-<attribute NAME="version" VALUE="v0.6.7" OBJECT="org.freeplane.features.format.FormattedObject|v0.6.7|number:decimal:#0.####"/>
+<attribute NAME="version" VALUE="v0.6.9" OBJECT="org.freeplane.features.format.FormattedObject|v0.6.9|number:decimal:#0.####"/>
 <attribute NAME="author" VALUE="L. C. Rees"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="1.2.15"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
@@ -141,7 +141,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook NAME="FlexibleLayout" VALUE="CHILDREN"/>
 <node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1359873140107">
@@ -161,7 +160,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node ID="ID_419235551" CREATED="1357715987721" MODIFIED="1358826414218"><richcontent TYPE="NODE">
@@ -271,7 +269,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="0.3.0" ID="ID_1041388750" CREATED="1358051551048" MODIFIED="1358051563586">
@@ -341,7 +338,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#xa;GNU General Public License for more details." ID="ID_241792435" CREATED="1357715826895" MODIFIED="1357719017976">
@@ -365,7 +361,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xa;&lt;preferences_structure&gt;&#xa;&lt;tabbed_pane&gt;&#xa;&lt;tab name=&quot;plugins&quot;&gt;&#xa;&lt;separator name=&quot;wikd&quot;&gt;&#xa;&lt;boolean name=&quot;wikd_first_split&quot; /&gt;&#xa;&lt;/separator&gt;&#xa;&lt;/tab&gt;&#xa;&lt;/tabbed_pane&gt;&#xa;&lt;/preferences_structure&gt;" ID="ID_873595672" CREATED="1358304692163" MODIFIED="1358308194898">
@@ -386,7 +381,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="72" VALUE_WIDTH="72"/>
 <attribute NAME="wikd_first_split" VALUE="false"/>
@@ -405,7 +399,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="en" ID="ID_1245393964" CREATED="1357715826986" MODIFIED="1359702348835">
@@ -495,7 +488,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="30" VALUE_WIDTH="269"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
@@ -651,7 +643,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="capitalize.groovy" ID="ID_1501046977" CREATED="1357794199593" MODIFIED="1358028490172">
@@ -1011,7 +1002,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="scripts" ID="ID_219833333" CREATED="1357885389563" MODIFIED="1357885391598">
@@ -1021,7 +1011,7 @@
 </node>
 </node>
 </node>
-<node TEXT="images" FOLDED="true" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1359873140142">
+<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1359873140142">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -1055,7 +1045,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="${name}.png" ID="ID_473909841" CREATED="1357854883609" MODIFIED="1357866785018">
