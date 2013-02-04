@@ -15,8 +15,6 @@ import org.freeplane.features.map.mindmapmode.MMapController;
 import org.freeplane.features.mode.Controller;
 import org.freeplane.features.text.mindmapmode.MTextController;
 
-import com.google.common.collect.ImmutableList;
-
 public class WikdNode {
 
 	private static Boolean firstSplit = ResourceController
@@ -74,7 +72,8 @@ public class WikdNode {
 		final Controller c = getCurrentControl();
 		final MMapController m = getMMControl();
 		final NodeModel selected = c.getSelection().getSelected();
-		for (final NodeModel n : ImmutableList.copyOf(getSelecteds(c))) {
+		for (Object i : getSelecteds(c).toArray()) {
+			final NodeModel n = (NodeModel) i;
 			collect.add(trim(getPlain(n)));
 			if (n != selected) {
 				m.deleteNode(n);
@@ -109,7 +108,6 @@ public class WikdNode {
 					if (!firstSplit) {
 						m.insertNode(new NodeModel(txt, n.getMap()), n);
 					}
-					// modification
 					mtext.setNodeText(n, txt);
 					flag = false;
 				} else {
