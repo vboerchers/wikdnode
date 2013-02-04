@@ -3,6 +3,6 @@
 
 import org.hardknots.wikd.wikdnode.WikdNode
 
-new WikdNode().joinPlainText(ui.showInputDialog(
+WikdNode.joinPlain(ui.showInputDialog(
 	node.delegate, 'Enter characters to join nodes with...', ''
 ))

@@ -8,5 +8,5 @@ def mark = ui.showInputDialog(
 )
 
 if (mark) {
-	new WikdNode().splitPlainText('(?<=' + (mark ? mark : '') + ')')
+	WikdNode.splitPlain('(?<=' + (mark ? mark : '') + ')')
 }

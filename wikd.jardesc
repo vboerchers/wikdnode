@@ -11,6 +11,7 @@
         </sealing>
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <folder path="/jWikdNode/com"/>
         <javaElement handleIdentifier="=jWikdNode/scripts&lt;org.hardknots.wikd.wikdnode"/>
     </selectedElements>
 </jardesc>

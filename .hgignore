@@ -26,3 +26,7 @@ syntax: glob
 .tox/*
 syntax: regexp
 ^stuff$
+syntax: regexp
+^guava-14\.0-rc1$
+syntax: regexp
+^guava$

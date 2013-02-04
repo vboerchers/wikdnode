@@ -3,10 +3,10 @@
 
 import org.hardknots.wikd.wikdnode.WikdNode
 
-ui.showInputDialog(
+def mark = ui.showInputDialog(
 	node.delegate, 'Enter regular expression to split node text before...', ''
 )
 
 if (mark) {
-	new WikdNode().splitPlainText('(?=' + (mark ? mark : '') + ')')
+	WikdNode.splitPlain('(?=' + (mark ? mark : '') + ')')
 }

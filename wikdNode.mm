@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="wikdNode" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1359881580012" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/wikdnode/">
+<node TEXT="wikdNode" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1359922647447" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/wikdnode/">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -105,7 +105,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="6"/>
 <attribute_layout NAME_WIDTH="103" VALUE_WIDTH="103"/>
 <attribute NAME="name" VALUE="wikdNode"/>
-<attribute NAME="version" VALUE="v0.6.9" OBJECT="org.freeplane.features.format.FormattedObject|v0.6.9|number:decimal:#0.####"/>
+<attribute NAME="version" VALUE="v0.6.8" OBJECT="org.freeplane.features.format.FormattedObject|v0.6.8|number:decimal:#0.####"/>
 <attribute NAME="author" VALUE="L. C. Rees"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="1.2.15"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>

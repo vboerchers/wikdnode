@@ -10,5 +10,5 @@ def mark = ui.showInputDialog(
 )
 
 if (mark) {
-	new WikdNode().splitPlainText('(?<=' + Pattern.quote(mark ? mark : '') + ')')
+	WikdNode.splitPlain('(?<=' + Pattern.quote(mark ? mark : '') + ')')
 }

@@ -1,3 +1,6 @@
 // @CacheScriptContent(true)
 // @ExecutionModes({ON_SINGLE_NODE})
-c.selecteds.every { it.text = it.plainText.toLowerCase() }
+
+import org.hardknots.wikd.wikdnode.WikdNode
+
+WikdNode.lowerPlain()

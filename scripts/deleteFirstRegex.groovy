@@ -1,13 +1,12 @@
 // @CacheScriptContent(true)
 // @ExecutionModes({ON_SINGLE_NODE})
-import java.util.regex.Pattern
-import org.apache.commons.lang.StringUtils as SU
+
+import org.hardknots.wikd.wikdnode.WikdNode
+
 def mark = ui.showInputDialog(
 	node.delegate, 'Enter regular expression used to delete characters from text start...', ''
 )
 
-if (mark != null) {
-   c.selecteds.every {
-	   it.text = SU.trim( it.plainText.replaceFirst('^{1}' + mark, ''))
-   }
+if (mark) {
+	WikdNode.stripPlain('^{1}' + mark)
 }

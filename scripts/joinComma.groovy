@@ -3,4 +3,4 @@
 
 import org.hardknots.wikd.wikdnode.WikdNode
 
-new WikdNode().joinPlainText(', ')
+WikdNode.joinPlain(', ')

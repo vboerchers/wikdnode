@@ -19,5 +19,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/JOrtho_0.4_freeplane"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
+	<classpathentry kind="lib" path="guava-14.0-rc1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
