@@ -48,7 +48,8 @@ public class WikdNode {
 	public static void capitalizePlain() {
 		final MTextController mtext = getMTextControl();
 		for (NodeModel n : getSelecteds(getCurrentControl())) {
-			mtext.setNodeText(n, StringUtils.capitalize(getPlain(n).toLowerCase()));
+			mtext.setNodeText(n,
+					StringUtils.capitalize(getPlain(n).toLowerCase()));
 		}
 	}
 
