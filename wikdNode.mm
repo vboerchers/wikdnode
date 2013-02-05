@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="wikdNode" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1359922647447" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/wikdnode/">
+<node TEXT="wikdNode" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1360052546732" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/wikdnode/">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -105,7 +105,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="6"/>
 <attribute_layout NAME_WIDTH="103" VALUE_WIDTH="103"/>
 <attribute NAME="name" VALUE="wikdNode"/>
-<attribute NAME="version" VALUE="v0.6.8" OBJECT="org.freeplane.features.format.FormattedObject|v0.6.8|number:decimal:#0.####"/>
+<attribute NAME="version" VALUE="v0.6.9" OBJECT="org.freeplane.features.format.FormattedObject|v0.6.9|number:decimal:#0.####"/>
 <attribute NAME="author" VALUE="L. C. Rees"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="1.2.15"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
@@ -401,54 +401,54 @@
 </html>
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
-<node TEXT="en" ID="ID_1245393964" CREATED="1357715826986" MODIFIED="1359702348835">
+<node TEXT="en" ID="ID_1245393964" CREATED="1357715826986" MODIFIED="1360052539414">
 <attribute_layout NAME_WIDTH="130" VALUE_WIDTH="246"/>
 <attribute NAME="addons.${name}" VALUE="wikdNode"/>
-<attribute NAME="jWikdConvert" VALUE="Convert"/>
-<attribute NAME="wikdDelete" VALUE="Delete"/>
-<attribute NAME="wikdJoin" VALUE="Join"/>
-<attribute NAME="jWikdSplit" VALUE="Split"/>
-<attribute NAME="jWikd.capitalize" VALUE="Capitalize"/>
-<attribute NAME="jWikd.capitalizeAll" VALUE="Capitalize all"/>
+<attribute NAME="wikdConvert" VALUE="Convert..."/>
+<attribute NAME="wikdDelete" VALUE="Delete..."/>
+<attribute NAME="wikdJoin" VALUE="Join..."/>
+<attribute NAME="wikdSplit" VALUE="Split..."/>
+<attribute NAME="wikd.capitalize" VALUE="To capitalized"/>
+<attribute NAME="wikd.capitalizeAll" VALUE="To all capitalized"/>
 <attribute NAME="wikd.upperCase" VALUE="To upper case"/>
 <attribute NAME="wikd.lowerCase" VALUE="To lower case"/>
-<attribute NAME="wikd.makeChild" VALUE="Copy to child"/>
-<attribute NAME="wikd.replaceParent" VALUE="Replace parent"/>
-<attribute NAME="wikd.childrenToAttrs" VALUE="Children to attributes"/>
-<attribute NAME="wikd.attrsToChildren" VALUE="Attributes to children"/>
-<attribute NAME="wikd.joinPeriod" VALUE="Join with periods"/>
-<attribute NAME="wikd.joinComma" VALUE="Join with commas"/>
-<attribute NAME="wikd.joinSpace" VALUE="Join with spaces"/>
-<attribute NAME="wikd.joinChars" VALUE="Join with characters..."/>
-<attribute NAME="wikd.splitBeforeChars" VALUE="Split before characters..."/>
-<attribute NAME="wikd.splitBeforeRegex" VALUE="Split before regular expression..."/>
-<attribute NAME="wikd.splitAfterChars" VALUE="Split after characters..."/>
-<attribute NAME="wikd.splitAfterRegex" VALUE="Split after regular expression..."/>
-<attribute NAME="wikd.splitPeriod" VALUE="Split on periods"/>
-<attribute NAME="wikd.splitComma" VALUE="Split on commas"/>
-<attribute NAME="wikd.splitSpace" VALUE="Split on spaces"/>
-<attribute NAME="wikd.splitChars" VALUE="Split on characters..."/>
-<attribute NAME="wikd.splitRegex" VALUE="Split on regular expression..."/>
-<attribute NAME="wikd.deleteLastChars" VALUE="Delete last characters..."/>
-<attribute NAME="wikd.deleteLastRegex" VALUE="Delete last matching regular expression..."/>
-<attribute NAME="wikd.deleteFirstChars" VALUE="Delete first characters..."/>
-<attribute NAME="wikd.deleteFirstRegex" VALUE="Delete first matching regular expression..."/>
-<attribute NAME="wikd.deleteLinks" VALUE="Delete links"/>
+<attribute NAME="wikd.makeChild" VALUE="Parent to child"/>
+<attribute NAME="wikd.replaceParent" VALUE="Child to parent"/>
+<attribute NAME="wikd.childrenToAttrs" VALUE="Child nodes to attributes"/>
+<attribute NAME="wikd.attrsToChildren" VALUE="Attributes to child nodes"/>
+<attribute NAME="wikd.joinPeriod" VALUE="With periods"/>
+<attribute NAME="wikd.joinComma" VALUE="With commas"/>
+<attribute NAME="wikd.joinSpace" VALUE="With spaces"/>
+<attribute NAME="wikd.joinChars" VALUE="With characters..."/>
+<attribute NAME="wikd.splitBeforeChars" VALUE="Before characters..."/>
+<attribute NAME="wikd.splitBeforeRegex" VALUE="Before regular expression..."/>
+<attribute NAME="wikd.splitAfterChars" VALUE="After characters..."/>
+<attribute NAME="wikd.splitAfterRegex" VALUE="After regular expression..."/>
+<attribute NAME="wikd.splitPeriod" VALUE="On periods"/>
+<attribute NAME="wikd.splitComma" VALUE="On commas"/>
+<attribute NAME="wikd.splitSpace" VALUE="On spaces"/>
+<attribute NAME="wikd.splitChars" VALUE="On characters..."/>
+<attribute NAME="wikd.splitRegex" VALUE="On regular expression..."/>
+<attribute NAME="wikd.deleteLastChars" VALUE="Last characters..."/>
+<attribute NAME="wikd.deleteLastRegex" VALUE="Last matching regular expression..."/>
+<attribute NAME="wikd.deleteFirstChars" VALUE="First characters..."/>
+<attribute NAME="wikd.deleteFirstRegex" VALUE="First matching regular expression..."/>
+<attribute NAME="wikd.deleteLinks" VALUE="Links"/>
 <attribute NAME="OptionPanel.separator.wikd" VALUE="wikdNode"/>
 <attribute NAME="OptionPanel.wikd_first_split" VALUE="Keep first split as parent"/>
 </node>
-<node TEXT="de" ID="ID_726128733" CREATED="1357715826986" MODIFIED="1359702440779">
+<node TEXT="de" ID="ID_726128733" CREATED="1357715826986" MODIFIED="1360051995660">
 <attribute_layout NAME_WIDTH="130" VALUE_WIDTH="224"/>
 <attribute NAME="addons.${name}" VALUE="wikdNode"/>
-<attribute NAME="jWikdConvert" VALUE="Konvertieren"/>
-<attribute NAME="jWikdConvert" VALUE="Entfernen"/>
-<attribute NAME="jWikdConvert" VALUE="Verbinden"/>
-<attribute NAME="jWikdConvert" VALUE="Teilen"/>
-<attribute NAME="jWikdConvert" VALUE="1. Anfangsbuchst. gro&#xdf;"/>
-<attribute NAME="jWikdConvert" VALUE="Alle Anfangsbuchst. gro&#xdf;"/>
-<attribute NAME="jWikdConvert" VALUE="Gro&#xdf;buchstaben"/>
-<attribute NAME="jWikdConvert" VALUE="Kleinbuchstaben"/>
-<attribute NAME="jWikdConvert" VALUE="Als Kindknoten kopieren"/>
+<attribute NAME="wikdConvert" VALUE="Konvertieren"/>
+<attribute NAME="wikdDelete" VALUE="Delete"/>
+<attribute NAME="wikdJoin" VALUE="Join"/>
+<attribute NAME="wikdSplit" VALUE="Join"/>
+<attribute NAME="wikd.capitalize" VALUE="1. Anfangsbuchst. gro&#xdf;"/>
+<attribute NAME="wikd.capitalizeAll" VALUE="Alle Anfangsbuchst. gro&#xdf;"/>
+<attribute NAME="wikd.upperCase" VALUE="To upper case"/>
+<attribute NAME="wikd.lowerCase" VALUE="To lower case"/>
+<attribute NAME="wikd.makeChild" VALUE="Copy to child"/>
 <attribute NAME="wikd.replaceParent" VALUE="Ersetze Elternknoten"/>
 <attribute NAME="wikd.childrenToAttrs" VALUE="Kinder um die Attribute"/>
 <attribute NAME="wikd.attrsToChildren" VALUE="Attribute f&#xfc;r Kinder"/>

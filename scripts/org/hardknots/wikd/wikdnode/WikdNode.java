@@ -49,7 +49,7 @@ public class WikdNode {
 		final MTextController mtext = getMTextControl();
 		for (NodeModel n : getSelecteds(getCurrentControl())) {
 			mtext.setNodeText(n,
-					StringUtils.capitalize(getPlain(n).toLowerCase()));
+					trim(StringUtils.capitalize(getPlain(n).toLowerCase())));
 		}
 	}
 
@@ -64,7 +64,7 @@ public class WikdNode {
 		final MTextController mtext = getMTextControl();
 		for (NodeModel n : getSelecteds(getCurrentControl())) {
 			mtext.setNodeText(n,
-					WordUtils.capitalizeFully(getPlain(n).toLowerCase()));
+					trim(WordUtils.capitalizeFully(getPlain(n).toLowerCase())));
 		}
 	}
 
@@ -76,12 +76,11 @@ public class WikdNode {
 		for (Object i : getSelecteds(c).toArray()) {
 			final NodeModel n = (NodeModel) i;
 			collect.add(trim(getPlain(n)));
-			if (n != selected) {
+			if (n != selected)
 				m.deleteNode(n);
-			}
 		}
 		getMTextControl().setNodeText(selected,
-				StringUtils.join(collect.toArray(), mark));
+				trim(StringUtils.join(collect.toArray(), mark)));
 		c.getSelection().selectAsTheOnlyOneSelected(selected);
 	}
 
@@ -95,7 +94,7 @@ public class WikdNode {
 	public static void lowerPlain() {
 		final MTextController mtext = getMTextControl();
 		for (NodeModel n : getSelecteds(getCurrentControl())) {
-			mtext.setNodeText(n, getPlain(n).toLowerCase());
+			mtext.setNodeText(n, trim(getPlain(n).toLowerCase()));
 		}
 	}
 
@@ -106,13 +105,12 @@ public class WikdNode {
 			Boolean flag = true;
 			for (String txt : getPlain(n).split(mark)) {
 				if (flag) {
-					if (!firstSplit) {
-						m.insertNode(new NodeModel(txt, n.getMap()), n);
-					}
-					mtext.setNodeText(n, txt);
+					if (!firstSplit)
+						m.insertNode(new NodeModel(trim(txt), n.getMap()), n);
+					mtext.setNodeText(n, trim(txt));
 					flag = false;
 				} else {
-					m.insertNode(new NodeModel(txt, n.getMap()), n);
+					m.insertNode(new NodeModel(trim(txt), n.getMap()), n);
 				}
 			}
 		}
@@ -121,7 +119,7 @@ public class WikdNode {
 	public static void upperPlain() {
 		final MTextController mtext = getMTextControl();
 		for (NodeModel n : getSelecteds(getCurrentControl())) {
-			mtext.setNodeText(n, getPlain(n).toUpperCase());
+			mtext.setNodeText(n, trim(getPlain(n).toUpperCase()));
 		}
 	}
 
