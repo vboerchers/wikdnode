@@ -1,7 +1,13 @@
 wikdNode
-=================
+========
 
-Node wrangling features for Freeplane:
+Node wrangling features for [Freeplane](http://freeplane.sourceforge.net/)
+implemented as a
+[Freeplane add-on](http://freeplane.sourceforge.net/wiki/index.php/Add-ons).
+
+[Download wikdNode add-on here](http://freeplane.sourceforge.net/wiki/index.php/Add-ons#wikdNode)
+
+Scripts:
 
 * capitalize first word in node core text
 * capitalize all words in node core text

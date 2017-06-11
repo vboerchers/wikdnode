@@ -1,1 +1,0 @@
-c.selecteds.every { it.text = it.plainText.toLowerCase() }
